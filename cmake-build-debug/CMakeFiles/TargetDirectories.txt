@@ -382,5 +382,11 @@ C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFile
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/CollatzConjecture.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/BoringDay.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/BeautyOfTheMountains.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/CatchTheCoin.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/SubstringAndSubsequence.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/TwoMovies.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/SmithingSkill.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/MathematicalProblem.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Cochilie.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

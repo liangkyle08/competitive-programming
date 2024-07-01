@@ -398,7 +398,13 @@
 						380,
 						381,
 						382,
-						383
+						383,
+						384,
+						385,
+						386,
+						387,
+						388,
+						389
 					]
 				}
 			],
@@ -796,7 +802,13 @@
 						380,
 						381,
 						382,
-						383
+						383,
+						384,
+						385,
+						386,
+						387,
+						388,
+						389
 					]
 				}
 			],
@@ -1217,6 +1229,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "CatchTheCoin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CatchTheCoin-Debug-9dd5ffc253c7b5633560.json",
+					"name" : "CatchTheCoin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "CaveExploration::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CaveExploration-Debug-890e787a9039bdd156d6.json",
 					"name" : "CaveExploration",
@@ -1290,6 +1309,13 @@
 					"id" : "ClosetCowWins::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ClosetCowWins-Debug-5fdef208efccc105c879.json",
 					"name" : "ClosetCowWins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cochilie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cochilie-Debug-606f620f58ace3738c03.json",
+					"name" : "Cochilie",
 					"projectIndex" : 0
 				},
 				{
@@ -2239,6 +2265,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "MathematicalProblem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MathematicalProblem-Debug-b1ed4be75602b21a4874.json",
+					"name" : "MathematicalProblem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Matryoshkas::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Matryoshkas-Debug-5331a7ad81f0be185a39.json",
 					"name" : "Matryoshkas",
@@ -2946,6 +2979,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "SmithingSkill::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmithingSkill-Debug-9cbc5519036acda424eb.json",
+					"name" : "SmithingSkill",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Soccer::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Soccer-Debug-00c678e23ab2d25a250f.json",
 					"name" : "Soccer",
@@ -3026,6 +3066,13 @@
 					"id" : "SubsetEquality::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-SubsetEquality-Debug-1be4b272d1831eb30dfe.json",
 					"name" : "SubsetEquality",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SubstringAndSubsequence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SubstringAndSubsequence-Debug-f1596970aa19e3a9a10a.json",
+					"name" : "SubstringAndSubsequence",
 					"projectIndex" : 0
 				},
 				{
@@ -3306,6 +3353,13 @@
 					"id" : "Turnuri::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Turnuri-Debug-ca5f389629fff2b34a94.json",
 					"name" : "Turnuri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TwoMovies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TwoMovies-Debug-30bd237cff2fe8c8c794.json",
+					"name" : "TwoMovies",
 					"projectIndex" : 0
 				},
 				{
