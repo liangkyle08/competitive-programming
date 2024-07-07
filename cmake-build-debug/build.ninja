@@ -12976,6 +12976,138 @@ build SetToMax.exe: CXX_EXECUTABLE_LINKER__SetToMax_Debug CMakeFiles/SetToMax.di
   TARGET_IMPLIB = libSetToMax.dll.a
   TARGET_PDB = SetToMax.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DoubleRow
+
+
+#############################################
+# Order-only phony target for DoubleRow
+
+build cmake_object_order_depends_target_DoubleRow: phony || CMakeFiles/DoubleRow.dir
+
+build CMakeFiles/DoubleRow.dir/SZKOpul/double-row.cpp.obj: CXX_COMPILER__DoubleRow_Debug C$:/Users/liang/CLionProjects/competitive-programming/SZKOpul/double-row.cpp || cmake_object_order_depends_target_DoubleRow
+  DEP_FILE = CMakeFiles\DoubleRow.dir\SZKOpul\double-row.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DoubleRow.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoubleRow.dir\SZKOpul
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DoubleRow
+
+
+#############################################
+# Link the executable DoubleRow.exe
+
+build DoubleRow.exe: CXX_EXECUTABLE_LINKER__DoubleRow_Debug CMakeFiles/DoubleRow.dir/SZKOpul/double-row.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DoubleRow.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DoubleRow.exe
+  TARGET_IMPLIB = libDoubleRow.dll.a
+  TARGET_PDB = DoubleRow.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ByElevatorOrStairs
+
+
+#############################################
+# Order-only phony target for ByElevatorOrStairs
+
+build cmake_object_order_depends_target_ByElevatorOrStairs: phony || CMakeFiles/ByElevatorOrStairs.dir
+
+build CMakeFiles/ByElevatorOrStairs.dir/CodeForces/by-elevator-or-stairs.cpp.obj: CXX_COMPILER__ByElevatorOrStairs_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/by-elevator-or-stairs.cpp || cmake_object_order_depends_target_ByElevatorOrStairs
+  DEP_FILE = CMakeFiles\ByElevatorOrStairs.dir\CodeForces\by-elevator-or-stairs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ByElevatorOrStairs.dir
+  OBJECT_FILE_DIR = CMakeFiles\ByElevatorOrStairs.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ByElevatorOrStairs
+
+
+#############################################
+# Link the executable ByElevatorOrStairs.exe
+
+build ByElevatorOrStairs.exe: CXX_EXECUTABLE_LINKER__ByElevatorOrStairs_Debug CMakeFiles/ByElevatorOrStairs.dir/CodeForces/by-elevator-or-stairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ByElevatorOrStairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ByElevatorOrStairs.exe
+  TARGET_IMPLIB = libByElevatorOrStairs.dll.a
+  TARGET_PDB = ByElevatorOrStairs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target WarehouseStore
+
+
+#############################################
+# Order-only phony target for WarehouseStore
+
+build cmake_object_order_depends_target_WarehouseStore: phony || CMakeFiles/WarehouseStore.dir
+
+build CMakeFiles/WarehouseStore.dir/SZKOpul/warehouse-store.cpp.obj: CXX_COMPILER__WarehouseStore_Debug C$:/Users/liang/CLionProjects/competitive-programming/SZKOpul/warehouse-store.cpp || cmake_object_order_depends_target_WarehouseStore
+  DEP_FILE = CMakeFiles\WarehouseStore.dir\SZKOpul\warehouse-store.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\WarehouseStore.dir
+  OBJECT_FILE_DIR = CMakeFiles\WarehouseStore.dir\SZKOpul
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target WarehouseStore
+
+
+#############################################
+# Link the executable WarehouseStore.exe
+
+build WarehouseStore.exe: CXX_EXECUTABLE_LINKER__WarehouseStore_Debug CMakeFiles/WarehouseStore.dir/SZKOpul/warehouse-store.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\WarehouseStore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = WarehouseStore.exe
+  TARGET_IMPLIB = libWarehouseStore.dll.a
+  TARGET_PDB = WarehouseStore.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ScoreOfATree
+
+
+#############################################
+# Order-only phony target for ScoreOfATree
+
+build cmake_object_order_depends_target_ScoreOfATree: phony || CMakeFiles/ScoreOfATree.dir
+
+build CMakeFiles/ScoreOfATree.dir/CodeForces/score-of-a-tree.cpp.obj: CXX_COMPILER__ScoreOfATree_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/score-of-a-tree.cpp || cmake_object_order_depends_target_ScoreOfATree
+  DEP_FILE = CMakeFiles\ScoreOfATree.dir\CodeForces\score-of-a-tree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ScoreOfATree.dir
+  OBJECT_FILE_DIR = CMakeFiles\ScoreOfATree.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ScoreOfATree
+
+
+#############################################
+# Link the executable ScoreOfATree.exe
+
+build ScoreOfATree.exe: CXX_EXECUTABLE_LINKER__ScoreOfATree_Debug CMakeFiles/ScoreOfATree.dir/CodeForces/score-of-a-tree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ScoreOfATree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ScoreOfATree.exe
+  TARGET_IMPLIB = libScoreOfATree.dll.a
+  TARGET_PDB = ScoreOfATree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -13106,6 +13238,8 @@ build BuildGates: phony BuildGates.exe
 
 build Buttons: phony Buttons.exe
 
+build ByElevatorOrStairs: phony ByElevatorOrStairs.exe
+
 build COWOperations: phony COWOperations.exe
 
 build Cablaj: phony Cablaj.exe
@@ -13215,6 +13349,8 @@ build DivisorChain: phony DivisorChain.exe
 build DoYouKnowYourABCs: phony DoYouKnowYourABCs.exe
 
 build DoraAndSearch: phony DoraAndSearch.exe
+
+build DoubleRow: phony DoubleRow.exe
 
 build Dragoni: phony Dragoni.exe
 
@@ -13594,6 +13730,8 @@ build Sap: phony Sap.exe
 
 build SashaAndArrayColoring: phony SashaAndArrayColoring.exe
 
+build ScoreOfATree: phony ScoreOfATree.exe
+
 build SecretBox: phony SecretBox.exe
 
 build SecretCowCode: phony SecretCowCode.exe
@@ -13762,6 +13900,8 @@ build VladAndAvodingX: phony VladAndAvodingX.exe
 
 build VladAndTroubleAtMIT: phony VladAndTroubleAtMIT.exe
 
+build WarehouseStore: phony WarehouseStore.exe
+
 build WhyDidTheCowCrossTheRoadIIISilver: phony WhyDidTheCowCrossTheRoadIIISilver.exe
 
 build WhyDidTheCowCrossTheRoadIISilver: phony WhyDidTheCowCrossTheRoadIISilver.exe
@@ -13794,7 +13934,7 @@ build YouAreSoBeautiful: phony YouAreSoBeautiful.exe
 #############################################
 # Folder: C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug
 
-build all: phony Following_Directions.exe Dance_Mooves.exe Cablaj.exe SashaAndArrayColoring.exe LongLong.exe SumInBinaryTree.exe AppleTree.exe TrackingSegments.exe CircularBarnRevisited.exe LeastPrefixSum.exe MinimizingCoins.exe MaximumSet.exe OutOfSorts.exe RitwinAndComparisons.exe PichuAndTriominoes.exe AlexAndExpoMarkers.exe ForbiddenInteger.exe ComeTogether.exe StrongPassword.exe RatingSystem.exe Conexidad.exe Dragoni.exe GrEA.exe Partit.exe JJOOII2.exe Frog1.exe Frog2.exe Vacation.exe Knapsack1.exe Knapsack2.exe LCS.exe LongestPath.exe Grid1.exe DiceCombinations.exe CoinCombinationsI.exe CoinCombinationsII.exe RemovingDigits.exe GridPaths.exe BookShop.exe ArrayDescription.exe Bitcost.exe Base3.exe TheManWhoBecameAGod.exe HamonOdyssey.exe VampiricPowers.exe Ramen.exe Ninjago.exe RudolphAndCutTheRope.exe RudolphAndTicTacToe.exe RudolphAndAnotherCompetition.exe RudolphAndChristmasTree.exe RudolphAndSnowflakes.exe TeamWork.exe FlipCards.exe MaxMultiple.exe TimeIsMooney.exe StampPainting.exe FruitFeast.exe IndexTimesA.exe BetweenTwoArrays.exe IHateNonIntegerNumber.exe Cezar.exe StoneGame.exe Tairos.exe TreeMatching.exe IndependentSet.exe VikaAndHerFriends.exe VikaAndTheBridge.exe VikaAndPriceTags.exe TreeDistancesI.exe TreeDistancesII.exe Subsecvente.exe Interesant.exe FineDining.exe TalesOfASort.exe GoodArrays.exe ToBecomeMax.exe PermuTree.exe Transport2.exe Asmax.exe BinaryStringCopying.exe ArrayColoring.exe MaximumRounding.exe AssemblyViaMinimums.exe StrongVertices.exe PowerOfPoints.exe BuckepotatoFanClub.exe Hillington.exe TreeFolding.exe Cuplaje.exe SecretulCifrului.exe Parcare.exe Nrsubsecv.exe Turcane.exe CaveExploration.exe PolycarpAndTheDayOfPi.exe TaisiaAndDice.exe Premutation.exe Matryoshkas.exe VladAndAPairOfNumbers.exe UnitedWeStand.exe OlyaAndGameWithArrays.exe AnotherPermutationProblem.exe AndreyAndEscapeFromCapygrad.exe Skyscrapers.exe Minecraft.exe BarnPainting.exe 248.exe Buttons.exe TheWalkway.exe YetAnotherPermutationProblem.exe LeftOut.exe Pictorul.exe IncreasingAndDecreasing.exe SwapAndReverse.exe DivisorChain.exe Leximin.exe Nondecreasing.exe Papricice.exe TinyTypes.exe Advertisement2.exe CompanyQueriesII.exe DistanceQueries.exe SlothNaptime.exe PlanetsQueriesI.exe MaxFlow.exe Trampoline.exe Crescator.exe DynamicRangeSumQueries.exe NumOfMinOnASegment.exe Inversions.exe Suporter.exe FennecVsSnuke.exe FireCrackers.exe MinMaxSort.exe SegTreeSums.exe SegTreeMin.exe SegTreeMaxSum.exe ListRemovals.exe KthOne.exe FirstElementAtLeastX.exe FirstElementAtLeastX2.exe ABgraf.exe MEXanizedArray.exe FriendlyArrays.exe ColorfulTable.exe PrefixPurchase.exe Acowdemia.exe DoYouKnowYourABCs.exe Rigged.exe ChipsOnTheBoard.exe MakeItAlternating.exe InteractivegGamewithColoring.exe NestedRangesCheck.exe CompleteBinaryTree.exe 23.exe HiHiThereThereMagicSquare.exe AlexRevolt2.exe PichuAndTetrominoes.exe LunchboxAndCoins.exe SubtreeQueries.exe DistinctColors.exe ExactlyKSteps.exe Insule.exe ABX.exe Pascal.exe Transfromare.exe Sap.exe Sugubatz.exe ConventionII.exe RectangularPasture.exe IcyPerimeter.exe TheGreatRevegtation.exe Cereal.exe SecretCowCode.exe BuildGates.exe SwapitySwapitySwap.exe Triangles.exe Dances.exe YouAreSoBeautiful.exe Subway.exe Lifeguards.exe RentalService.exe Mean.exe FoehnPhenomena.exe MaximumDistance.exe TornLuckyTicket.exe AntonWouldApproveThisProblem.exe Orase.exe TripleReverseSort.exe Mirror.exe XORConstruction.exe SmiloAndMonsters.exe Anagram.exe Xorstanta.exe StringStreak.exe HillClimb.exe InterestingArray.exe ArithmeticEquality.exe BackToTheHimalayas.exe FataMorgana.exe Vaccination.exe MiliciaAndString.exe MilenaAndAdmirer.exe ColorfulGrid.exe BinaryChess.exe PingPong.exe WhyDidTheCowCrossTheRoadIISilver.exe WhyDidTheCowCrossTheRoadIIISilver.exe BerryPicking.exe Extrapare.exe Triprime.exe QpwoeirutAndInvestors.exe GunnAndTeamMaking.exe PichuAndPentominoes.exe LineTrip.exe ChipAndRibbon.exe AddDivideAndFloor.exe YetAnotherMonsterFight.exe Raganama.exe JaggedSwaps.exe ABFlipping.exe MatchingArrays.exe CoverInWater.exe LauraAndOperations.exe AnjiBinaryTree.exe SmallGCD.exe Nrpits.exe MilkMeasurement.exe MultiMi.exe Mario.exe TheBovineShuffle.exe Trebuchet.exe Trebuchet2.exe Pareidolia.exe EmailFiling.exe EVIP.exe NXY.exe LoanReplacement.exe ComfortableCows.exe YearOfTheCow.exe JustGreenEnough.exe RedistributingGifts.exe ClosetCowWins.exe ConnectingTwoBarns.exe Cereal2.exe BovineAcrobatics.exe CycleCorrespondence.exe TargetPractice.exe StringImbalance.exe CatalinAndBinarySorting.exe FindAndReplace.exe MooRoute.exe XFactor.exe Cowpatibility.exe Diff.exe Inversiuni.exe Moocast.exe LasersAndMirrors.exe AwesomeArrowlandAdveture.exe Mostenire.exe GoodIntervals.exe Teleportation.exe MilkingOrder.exe CollectingCoins.exe DeleteOneDigit.exe LarkAndNightingale.exe CitySkylines.exe LuckySudoku.exe BitShowdown.exe BessieAndDominos.exe BessieAndSelection.exe Viitor.exe Cowmpetency.exe PotionFarming.exe Cowlendar.exe CitySkylinesGen.exe LarryTheLizard.exe Numinum.exe FactoradicFactory.exe JefferyAndNewYears.exe Lemans.exe Fibosnek.exe FlightRoutes.exe Visits.exe SubsetEquality.exe COWOperations.exe MilkPumping.exe TargetPracticeII.exe Moorbles.exe TestTubes.exe RangeReconstruction.exe Pietricele.exe Bolovani.exe VladAndAvodingX.exe VladAndTroubleAtMIT.exe MilkExchangeBronze.exe MilkExchangeGold.exe TriNumArray.exe BalancedDifference.exe ProducingDigits.exe FarmerJohnCities.exe TwoWayHomework.exe CheatingTheGroupSystem.exe SoccerLeague.exe XYQueries.exe BessiesInterview.exe PaintingFencePosts.exe MooLanguage.exe GregorMaxLength.exe BinarySearch.exe KirillAndMushrooms.exe Calancea.exe Opsir.exe BessiesBirthdayCake.exe LearnToPaint.exe Birocratie.exe Frequencies.exe YogurtSale.exe ProgressiveSquare.exe InhabitantOfTheDeepSea.exe InaccurateSubsequenceSearch.exe LongInversions.exe GCDOnAGrid.exe Nestemate.exe EQ4.exe Castel.exe PaintingTheRibbon.exe MakeItUgly.exe LongMultiplication.exe Turnuri.exe Asort.exe Nebuni.exe FSB.exe VIP.exe Stickogon.exe ABITOfConstruction.exe HowDoesTheRookMove.exe RunningMiles.exe LCSOnPermutations.exe CardExchange.exe RectangleFilling.exe EverythingNim.exe DreamsApprentice.exe StringSurgery.exe GibNebPerilousPlot.exe EvenSubarrays.exe MissingSubsequenceSum.exe Expresie.exe Kmajo.exe Pictura.exe Secv9.exe ConsecutiveMaxDiff.exe CatFoxDoubleMax.exe BitwiseOperationWizard.exe Compresie.exe AndrewAndStones.exe YetAnotherMinimizationProblem.exe SetConstruction.exe JobInterview.exe DataStructureFan.exe NenesMagicalMatrix.exe TheNumberOfImposters.exe DidWeGetEverythingCovered.exe GCDSequence.exe CreatingWords.exe MaxMultipleSum.exe GoodPrefixes.exe ManhattanCircle.exe SecretBox.exe FinalBoss.exe MaxLargestComponent.exe DoraAndSearch.exe MoscowGorillas.exe KoxiaAndNumberTheory.exe AddModulo10.exe Sirpal.exe NeneAndTheMEXOperator.exe QuizMaster.exe BeautifulArray.exe Soccer.exe CollatzConjecture.exe BoringDay.exe BeautyOfTheMountains.exe CatchTheCoin.exe SubstringAndSubsequence.exe TwoMovies.exe SmithingSkill.exe MathematicalProblem.exe Cochilie.exe TommysToy.exe SetToMax.exe
+build all: phony Following_Directions.exe Dance_Mooves.exe Cablaj.exe SashaAndArrayColoring.exe LongLong.exe SumInBinaryTree.exe AppleTree.exe TrackingSegments.exe CircularBarnRevisited.exe LeastPrefixSum.exe MinimizingCoins.exe MaximumSet.exe OutOfSorts.exe RitwinAndComparisons.exe PichuAndTriominoes.exe AlexAndExpoMarkers.exe ForbiddenInteger.exe ComeTogether.exe StrongPassword.exe RatingSystem.exe Conexidad.exe Dragoni.exe GrEA.exe Partit.exe JJOOII2.exe Frog1.exe Frog2.exe Vacation.exe Knapsack1.exe Knapsack2.exe LCS.exe LongestPath.exe Grid1.exe DiceCombinations.exe CoinCombinationsI.exe CoinCombinationsII.exe RemovingDigits.exe GridPaths.exe BookShop.exe ArrayDescription.exe Bitcost.exe Base3.exe TheManWhoBecameAGod.exe HamonOdyssey.exe VampiricPowers.exe Ramen.exe Ninjago.exe RudolphAndCutTheRope.exe RudolphAndTicTacToe.exe RudolphAndAnotherCompetition.exe RudolphAndChristmasTree.exe RudolphAndSnowflakes.exe TeamWork.exe FlipCards.exe MaxMultiple.exe TimeIsMooney.exe StampPainting.exe FruitFeast.exe IndexTimesA.exe BetweenTwoArrays.exe IHateNonIntegerNumber.exe Cezar.exe StoneGame.exe Tairos.exe TreeMatching.exe IndependentSet.exe VikaAndHerFriends.exe VikaAndTheBridge.exe VikaAndPriceTags.exe TreeDistancesI.exe TreeDistancesII.exe Subsecvente.exe Interesant.exe FineDining.exe TalesOfASort.exe GoodArrays.exe ToBecomeMax.exe PermuTree.exe Transport2.exe Asmax.exe BinaryStringCopying.exe ArrayColoring.exe MaximumRounding.exe AssemblyViaMinimums.exe StrongVertices.exe PowerOfPoints.exe BuckepotatoFanClub.exe Hillington.exe TreeFolding.exe Cuplaje.exe SecretulCifrului.exe Parcare.exe Nrsubsecv.exe Turcane.exe CaveExploration.exe PolycarpAndTheDayOfPi.exe TaisiaAndDice.exe Premutation.exe Matryoshkas.exe VladAndAPairOfNumbers.exe UnitedWeStand.exe OlyaAndGameWithArrays.exe AnotherPermutationProblem.exe AndreyAndEscapeFromCapygrad.exe Skyscrapers.exe Minecraft.exe BarnPainting.exe 248.exe Buttons.exe TheWalkway.exe YetAnotherPermutationProblem.exe LeftOut.exe Pictorul.exe IncreasingAndDecreasing.exe SwapAndReverse.exe DivisorChain.exe Leximin.exe Nondecreasing.exe Papricice.exe TinyTypes.exe Advertisement2.exe CompanyQueriesII.exe DistanceQueries.exe SlothNaptime.exe PlanetsQueriesI.exe MaxFlow.exe Trampoline.exe Crescator.exe DynamicRangeSumQueries.exe NumOfMinOnASegment.exe Inversions.exe Suporter.exe FennecVsSnuke.exe FireCrackers.exe MinMaxSort.exe SegTreeSums.exe SegTreeMin.exe SegTreeMaxSum.exe ListRemovals.exe KthOne.exe FirstElementAtLeastX.exe FirstElementAtLeastX2.exe ABgraf.exe MEXanizedArray.exe FriendlyArrays.exe ColorfulTable.exe PrefixPurchase.exe Acowdemia.exe DoYouKnowYourABCs.exe Rigged.exe ChipsOnTheBoard.exe MakeItAlternating.exe InteractivegGamewithColoring.exe NestedRangesCheck.exe CompleteBinaryTree.exe 23.exe HiHiThereThereMagicSquare.exe AlexRevolt2.exe PichuAndTetrominoes.exe LunchboxAndCoins.exe SubtreeQueries.exe DistinctColors.exe ExactlyKSteps.exe Insule.exe ABX.exe Pascal.exe Transfromare.exe Sap.exe Sugubatz.exe ConventionII.exe RectangularPasture.exe IcyPerimeter.exe TheGreatRevegtation.exe Cereal.exe SecretCowCode.exe BuildGates.exe SwapitySwapitySwap.exe Triangles.exe Dances.exe YouAreSoBeautiful.exe Subway.exe Lifeguards.exe RentalService.exe Mean.exe FoehnPhenomena.exe MaximumDistance.exe TornLuckyTicket.exe AntonWouldApproveThisProblem.exe Orase.exe TripleReverseSort.exe Mirror.exe XORConstruction.exe SmiloAndMonsters.exe Anagram.exe Xorstanta.exe StringStreak.exe HillClimb.exe InterestingArray.exe ArithmeticEquality.exe BackToTheHimalayas.exe FataMorgana.exe Vaccination.exe MiliciaAndString.exe MilenaAndAdmirer.exe ColorfulGrid.exe BinaryChess.exe PingPong.exe WhyDidTheCowCrossTheRoadIISilver.exe WhyDidTheCowCrossTheRoadIIISilver.exe BerryPicking.exe Extrapare.exe Triprime.exe QpwoeirutAndInvestors.exe GunnAndTeamMaking.exe PichuAndPentominoes.exe LineTrip.exe ChipAndRibbon.exe AddDivideAndFloor.exe YetAnotherMonsterFight.exe Raganama.exe JaggedSwaps.exe ABFlipping.exe MatchingArrays.exe CoverInWater.exe LauraAndOperations.exe AnjiBinaryTree.exe SmallGCD.exe Nrpits.exe MilkMeasurement.exe MultiMi.exe Mario.exe TheBovineShuffle.exe Trebuchet.exe Trebuchet2.exe Pareidolia.exe EmailFiling.exe EVIP.exe NXY.exe LoanReplacement.exe ComfortableCows.exe YearOfTheCow.exe JustGreenEnough.exe RedistributingGifts.exe ClosetCowWins.exe ConnectingTwoBarns.exe Cereal2.exe BovineAcrobatics.exe CycleCorrespondence.exe TargetPractice.exe StringImbalance.exe CatalinAndBinarySorting.exe FindAndReplace.exe MooRoute.exe XFactor.exe Cowpatibility.exe Diff.exe Inversiuni.exe Moocast.exe LasersAndMirrors.exe AwesomeArrowlandAdveture.exe Mostenire.exe GoodIntervals.exe Teleportation.exe MilkingOrder.exe CollectingCoins.exe DeleteOneDigit.exe LarkAndNightingale.exe CitySkylines.exe LuckySudoku.exe BitShowdown.exe BessieAndDominos.exe BessieAndSelection.exe Viitor.exe Cowmpetency.exe PotionFarming.exe Cowlendar.exe CitySkylinesGen.exe LarryTheLizard.exe Numinum.exe FactoradicFactory.exe JefferyAndNewYears.exe Lemans.exe Fibosnek.exe FlightRoutes.exe Visits.exe SubsetEquality.exe COWOperations.exe MilkPumping.exe TargetPracticeII.exe Moorbles.exe TestTubes.exe RangeReconstruction.exe Pietricele.exe Bolovani.exe VladAndAvodingX.exe VladAndTroubleAtMIT.exe MilkExchangeBronze.exe MilkExchangeGold.exe TriNumArray.exe BalancedDifference.exe ProducingDigits.exe FarmerJohnCities.exe TwoWayHomework.exe CheatingTheGroupSystem.exe SoccerLeague.exe XYQueries.exe BessiesInterview.exe PaintingFencePosts.exe MooLanguage.exe GregorMaxLength.exe BinarySearch.exe KirillAndMushrooms.exe Calancea.exe Opsir.exe BessiesBirthdayCake.exe LearnToPaint.exe Birocratie.exe Frequencies.exe YogurtSale.exe ProgressiveSquare.exe InhabitantOfTheDeepSea.exe InaccurateSubsequenceSearch.exe LongInversions.exe GCDOnAGrid.exe Nestemate.exe EQ4.exe Castel.exe PaintingTheRibbon.exe MakeItUgly.exe LongMultiplication.exe Turnuri.exe Asort.exe Nebuni.exe FSB.exe VIP.exe Stickogon.exe ABITOfConstruction.exe HowDoesTheRookMove.exe RunningMiles.exe LCSOnPermutations.exe CardExchange.exe RectangleFilling.exe EverythingNim.exe DreamsApprentice.exe StringSurgery.exe GibNebPerilousPlot.exe EvenSubarrays.exe MissingSubsequenceSum.exe Expresie.exe Kmajo.exe Pictura.exe Secv9.exe ConsecutiveMaxDiff.exe CatFoxDoubleMax.exe BitwiseOperationWizard.exe Compresie.exe AndrewAndStones.exe YetAnotherMinimizationProblem.exe SetConstruction.exe JobInterview.exe DataStructureFan.exe NenesMagicalMatrix.exe TheNumberOfImposters.exe DidWeGetEverythingCovered.exe GCDSequence.exe CreatingWords.exe MaxMultipleSum.exe GoodPrefixes.exe ManhattanCircle.exe SecretBox.exe FinalBoss.exe MaxLargestComponent.exe DoraAndSearch.exe MoscowGorillas.exe KoxiaAndNumberTheory.exe AddModulo10.exe Sirpal.exe NeneAndTheMEXOperator.exe QuizMaster.exe BeautifulArray.exe Soccer.exe CollatzConjecture.exe BoringDay.exe BeautyOfTheMountains.exe CatchTheCoin.exe SubstringAndSubsequence.exe TwoMovies.exe SmithingSkill.exe MathematicalProblem.exe Cochilie.exe TommysToy.exe SetToMax.exe DoubleRow.exe ByElevatorOrStairs.exe WarehouseStore.exe ScoreOfATree.exe
 
 # =============================================================================
 # Built-in targets
