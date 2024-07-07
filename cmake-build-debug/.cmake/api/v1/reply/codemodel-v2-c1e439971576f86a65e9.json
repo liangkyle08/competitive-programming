@@ -410,7 +410,11 @@
 						392,
 						393,
 						394,
-						395
+						395,
+						396,
+						397,
+						398,
+						399
 					]
 				}
 			],
@@ -820,7 +824,11 @@
 						392,
 						393,
 						394,
-						395
+						395,
+						396,
+						397,
+						398,
+						399
 					]
 				}
 			],
@@ -978,6 +986,13 @@
 					"id" : "ArrayDescription::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ArrayDescription-Debug-5bc74d4c66d3f9f030ac.json",
 					"name" : "ArrayDescription",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ArrayDivisibility::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArrayDivisibility-Debug-da34364e982e8ca58e10.json",
+					"name" : "ArrayDivisibility",
 					"projectIndex" : 0
 				},
 				{
@@ -1444,6 +1459,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "CornerTwist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CornerTwist-Debug-ff5eb7c953f272c445c8.json",
+					"name" : "CornerTwist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "CoverInWater::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CoverInWater-Debug-fddf8a3e79f38bd9ce27.json",
 					"name" : "CoverInWater",
@@ -1902,6 +1924,13 @@
 					"id" : "HamonOdyssey::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-HamonOdyssey-Debug-75e179a7dc99e19cca89.json",
 					"name" : "HamonOdyssey",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HaveYourCakeAndEatItToo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HaveYourCakeAndEatItToo-Debug-436620ba23706727ee31.json",
+					"name" : "HaveYourCakeAndEatItToo",
 					"projectIndex" : 0
 				},
 				{
@@ -3547,6 +3576,13 @@
 					"id" : "XYQueries::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-XYQueries-Debug-041194240cecd313d7a5.json",
 					"name" : "XYQueries",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Xor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Xor-Debug-0e4fe3cb06ba2259b1d1.json",
+					"name" : "Xor",
 					"projectIndex" : 0
 				},
 				{
