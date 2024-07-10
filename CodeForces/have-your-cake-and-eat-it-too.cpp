@@ -12,6 +12,7 @@ const int MAX_N = 2e5;
 
 int T, N;
 int A[4][MAX_N+5];
+long long pSum[4][MAX_N+5];
 vector<array<int, 3>> pos = {
         {1, 2, 3},
         {1, 3, 2},
@@ -28,49 +29,46 @@ void solve() {
         for (int j = 1; j <= N; j++) {
             cin >> A[i][j];
             total += A[i][j];
+            pSum[i][j] = pSum[i][j-1] + A[i][j];
         }
     }
-    int upperBound = ((total / 3) + 2) / 3;
-    vector<pair<int, int>> ans(3, {-1, -1});
+    long long upperBound = ((total / 3) + 2) / 3;
+    vector<int> ans(6);
     bool flag = true;
     for (auto [a, b, c]: pos) {
-        ans[a - 1].fi = 1;
-        ans[a - 1].se = N;
-        long long sum = 0;
-        for (int i = 1; i <= N; i++) {
-            sum += A[a][i];
-            if (sum >= upperBound) {
-                ans[a - 1].se = i;
-                break;
-            }
+        int i = 1;
+        while (pSum[a][i] < upperBound && i < N) {
+            i++;
         }
-        ans[c - 1].fi = 1;
-        ans[c - 1].se = N;
-        sum = 0;
-        for (int i = N; i >= 1; i--) {
-            sum += A[c][i];
-            if (sum >= upperBound) {
-                ans[c - 1].fi = i;
-                break;
-            }
+        int j = i+1;
+        while (pSum[b][j] - pSum[b][i] < upperBound && j < N) {
+            j++;
         }
-        if (ans[c - 1].fi - ans[a - 1].se <= 1) continue;
-        sum = 0;
-        for (int i = ans[a - 1].se + 1; i <= ans[c - 1].fi - 1; i++) {
-            sum += A[b][i];
+        int k = j+1;
+        while (pSum[c][k] - pSum[c][j] < upperBound && k < N) {
+            k++;
         }
-        if (sum < upperBound) continue;
-        ans[b - 1].fi = ans[a - 1].se + 1;
-        ans[b - 1].se = ans[c - 1].fi - 1;
-        flag = false;
-        break;
+        if (pSum[a][i] >= upperBound
+            && (pSum[b][j] - pSum[b][i]) >= upperBound
+            && (pSum[c][k] - pSum[c][j]) >= upperBound
+            && i <= N
+            && j <= N
+            && k <= N) {
+            flag = false;
+            ans[2*(a-1)] = 1;
+            ans[2*(a-1)+1] = i;
+            ans[2*(b-1)] = i+1;
+            ans[2*(b-1)+1] = j;
+            ans[2*(c-1)] = j+1;
+            ans[2*(c-1)+1] = k;
+        }
     }
     if (flag) {
         cout << -1 << "\n";
         return;
     }
-    for (auto pi: ans) {
-        cout << pi.fi << " " << pi.se << " ";
+    for (auto v: ans) {
+        cout << v << " ";
     } cout << "\n";
 }
 
