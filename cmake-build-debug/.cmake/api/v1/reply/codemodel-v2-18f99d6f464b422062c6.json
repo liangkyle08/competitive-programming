@@ -414,7 +414,11 @@
 						396,
 						397,
 						398,
-						399
+						399,
+						400,
+						401,
+						402,
+						403
 					]
 				}
 			],
@@ -828,7 +832,11 @@
 						396,
 						397,
 						398,
-						399
+						399,
+						400,
+						401,
+						402,
+						403
 					]
 				}
 			],
@@ -1364,6 +1372,13 @@
 					"id" : "CoinCombinationsII::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CoinCombinationsII-Debug-cfe8983adb2fa9cd69dd.json",
 					"name" : "CoinCombinationsII",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cokolade::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cokolade-Debug-239d4065e384a40f6bdb.json",
+					"name" : "Cokolade",
 					"projectIndex" : 0
 				},
 				{
@@ -2656,6 +2671,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Parametriziran::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Parametriziran-Debug-f9e3c0a39883285c6a18.json",
+					"name" : "Parametriziran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Parcare::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Parcare-Debug-7d16db0324ec4a1a1dcc.json",
 					"name" : "Parcare",
@@ -2925,6 +2947,13 @@
 					"id" : "RunningMiles::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-RunningMiles-Debug-11338ca337ecd1e6f1a6.json",
 					"name" : "RunningMiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sabor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sabor-Debug-39d01ba93daa7c98c6a5.json",
+					"name" : "Sabor",
 					"projectIndex" : 0
 				},
 				{
@@ -3541,6 +3570,13 @@
 					"id" : "WarehouseStore::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-WarehouseStore-Debug-9f2add58542d293da8da.json",
 					"name" : "WarehouseStore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WarehouseStoreSZKOpul::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WarehouseStoreSZKOpul-Debug-cd3ee81866b5559470b4.json",
+					"name" : "WarehouseStoreSZKOpul",
 					"projectIndex" : 0
 				},
 				{
