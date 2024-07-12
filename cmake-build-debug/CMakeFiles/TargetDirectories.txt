@@ -402,5 +402,7 @@ C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFile
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Cokolade.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Sabor.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Parametriziran.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Scoazze.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/WormholeSort.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

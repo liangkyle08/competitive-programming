@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+const int MAX_N = 2e5;
+
 int N, M;
-int parent[200001];
-int sz[200001];
+int parent[MAX_N+5];
+int sz[MAX_N+5];
 
 int Find(int x) {
     if (x == parent[x]) {

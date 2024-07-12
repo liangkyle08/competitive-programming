@@ -22,7 +22,7 @@ int main() {
         cin >> A[i];
         int val = 0;
         for (int j = 0; j < M; j++) {
-            if (A[i][j] == '?') continue;
+            if (A[i][M-j-1] == '?') continue;
             val += (1<<j);
         }
         B[val].push_back(i);
@@ -33,42 +33,56 @@ int main() {
             int v1 = i;
             int v2 = j;
             vector<bool> v(M);
-            int sz = 0;
             for (int k = 0; k < M; k++) {
                 if ((v1 & 1) && (v2 & 1)) {
                     v[k] = true;
-                    sz++;
                 }
                 v1 >>= 1;
                 v2 >>= 1;
             }
-            map<string, int> freq;
+            map<string, int> freq1, freq2;
             for (auto &k: B[i]) {
                 string a = "";
-                for (int l = M-1; l >= 0; l--) {
+                for (int l = 0; l < M; l++) {
                     if (!v[l]) continue;
-                    a += A[k][l];
+                    a += A[k][M-l-1];
                 }
-                freq[a]++;
+                freq1[a]++;
             }
             for (auto &k: B[j]) {
                 string b = "";
-                for (int l = M-1; l >= 0; l--) {
+                for (int l = 0; l < M; l++) {
                     if (!v[l]) continue;
-                    b += A[k][l];
+                    b += A[k][M-l-1];
                 }
-                freq[b]++;
+                freq2[b]++;
             }
-            if (!freq.empty()) {
-                cout << i << " " << j << "\n";
-                for (int l = M-1; l >= 0; l--) {
-                    cout << v[l];
-                } cout << "\n";
+            for (auto [x, y]: freq1) {
+                int z = freq2[x];
+                ans += z * y;
             }
-            for (auto [x, y]: freq) {
-                cout << x << " " << y << "\n";
-                ans += y * (y - 1) / 2;
-            } //cout << "\n";
+        }
+    }
+    for (int i = 0; i < (1 << M); i++) {
+        int v1 = i;
+        vector<bool> v(M);
+        for (int k = 0; k < M; k++) {
+            if (v1 & 1) {
+                v[k] = true;
+            }
+            v1 >>= 1;
+        }
+        map<string, int> freq;
+        for (auto &k: B[i]) {
+            string a = "";
+            for (int l = 0; l < M; l++) {
+                if (!v[l]) continue;
+                a += A[k][M-l-1];
+            }
+            freq[a]++;
+        }
+        for (auto [x, y]: freq) {
+            ans += y * (y - 1) / 2;
         }
     }
     cout << ans << "\n";
