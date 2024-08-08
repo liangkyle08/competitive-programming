@@ -6,9 +6,11 @@ using namespace std;
 
 const int MOD = 1e9+7;
 
+const int MAX_N = 248;
+
 int N;
-int arr[249];
-bool DP[249][249][301]; // At the "i" position, using previous "j" positions, value of "k";
+int A[MAX_N + 5];
+int DP[MAX_N + 5][MAX_N + 45]; // At the "i" position, with value of "j", the maximum value;
 
 int main() {
     ios::sync_with_stdio(false);
@@ -18,16 +20,12 @@ int main() {
     cin >> N;
     int ans = 0;
     for (int i = 1; i <= N; i++) {
-        cin >> arr[i];
-        DP[i][1][arr[i]] = true;
-        ans = max(ans, arr[i]);
+        cin >> A[i];
+        ans = max(ans, A[i]);
     }
-    for (int i = 2; i <= N; i++) {
-        for (int j = 2; j <= i; j++) {
-            for (int k = 300; k >= 1; k--) {
-                if (DP[i][j][k])
-                DP[i][j][k] =
-            }
+    for (int i = 1; i <= N; i++) {
+        for (int j = 1; j <= MAX_N + 45; j++) {
+            DP[i][j] = max(DP[i][j], DP[i - 1][j])
         }
     }
     cout << ans << "\n";

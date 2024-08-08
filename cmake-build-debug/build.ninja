@@ -13438,6 +13438,600 @@ build WormholeSort.exe: CXX_EXECUTABLE_LINKER__WormholeSort_Debug CMakeFiles/Wor
   TARGET_IMPLIB = libWormholeSort.dll.a
   TARGET_PDB = WormholeSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Aranjare
+
+
+#############################################
+# Order-only phony target for Aranjare
+
+build cmake_object_order_depends_target_Aranjare: phony || CMakeFiles/Aranjare.dir
+
+build CMakeFiles/Aranjare.dir/Kilonova/aranjare.cpp.obj: CXX_COMPILER__Aranjare_Debug C$:/Users/liang/CLionProjects/competitive-programming/Kilonova/aranjare.cpp || cmake_object_order_depends_target_Aranjare
+  DEP_FILE = CMakeFiles\Aranjare.dir\Kilonova\aranjare.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aranjare.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aranjare.dir\Kilonova
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Aranjare
+
+
+#############################################
+# Link the executable Aranjare.exe
+
+build Aranjare.exe: CXX_EXECUTABLE_LINKER__Aranjare_Debug CMakeFiles/Aranjare.dir/Kilonova/aranjare.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Aranjare.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Aranjare.exe
+  TARGET_IMPLIB = libAranjare.dll.a
+  TARGET_PDB = Aranjare.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TreeCutting
+
+
+#############################################
+# Order-only phony target for TreeCutting
+
+build cmake_object_order_depends_target_TreeCutting: phony || CMakeFiles/TreeCutting.dir
+
+build CMakeFiles/TreeCutting.dir/CodeForces/tree-cutting.cpp.obj: CXX_COMPILER__TreeCutting_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/tree-cutting.cpp || cmake_object_order_depends_target_TreeCutting
+  DEP_FILE = CMakeFiles\TreeCutting.dir\CodeForces\tree-cutting.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TreeCutting.dir
+  OBJECT_FILE_DIR = CMakeFiles\TreeCutting.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TreeCutting
+
+
+#############################################
+# Link the executable TreeCutting.exe
+
+build TreeCutting.exe: CXX_EXECUTABLE_LINKER__TreeCutting_Debug CMakeFiles/TreeCutting.dir/CodeForces/tree-cutting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TreeCutting.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TreeCutting.exe
+  TARGET_IMPLIB = libTreeCutting.dll.a
+  TARGET_PDB = TreeCutting.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SplitTheMultiset
+
+
+#############################################
+# Order-only phony target for SplitTheMultiset
+
+build cmake_object_order_depends_target_SplitTheMultiset: phony || CMakeFiles/SplitTheMultiset.dir
+
+build CMakeFiles/SplitTheMultiset.dir/CodeForces/split-the-multiset.cpp.obj: CXX_COMPILER__SplitTheMultiset_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/split-the-multiset.cpp || cmake_object_order_depends_target_SplitTheMultiset
+  DEP_FILE = CMakeFiles\SplitTheMultiset.dir\CodeForces\split-the-multiset.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SplitTheMultiset.dir
+  OBJECT_FILE_DIR = CMakeFiles\SplitTheMultiset.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SplitTheMultiset
+
+
+#############################################
+# Link the executable SplitTheMultiset.exe
+
+build SplitTheMultiset.exe: CXX_EXECUTABLE_LINKER__SplitTheMultiset_Debug CMakeFiles/SplitTheMultiset.dir/CodeForces/split-the-multiset.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SplitTheMultiset.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SplitTheMultiset.exe
+  TARGET_IMPLIB = libSplitTheMultiset.dll.a
+  TARGET_PDB = SplitTheMultiset.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MakeMajority
+
+
+#############################################
+# Order-only phony target for MakeMajority
+
+build cmake_object_order_depends_target_MakeMajority: phony || CMakeFiles/MakeMajority.dir
+
+build CMakeFiles/MakeMajority.dir/CodeForces/make-majority.cpp.obj: CXX_COMPILER__MakeMajority_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/make-majority.cpp || cmake_object_order_depends_target_MakeMajority
+  DEP_FILE = CMakeFiles\MakeMajority.dir\CodeForces\make-majority.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MakeMajority.dir
+  OBJECT_FILE_DIR = CMakeFiles\MakeMajority.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MakeMajority
+
+
+#############################################
+# Link the executable MakeMajority.exe
+
+build MakeMajority.exe: CXX_EXECUTABLE_LINKER__MakeMajority_Debug CMakeFiles/MakeMajority.dir/CodeForces/make-majority.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MakeMajority.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MakeMajority.exe
+  TARGET_IMPLIB = libMakeMajority.dll.a
+  TARGET_PDB = MakeMajority.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IncreasingSequenceWithFixedOR
+
+
+#############################################
+# Order-only phony target for IncreasingSequenceWithFixedOR
+
+build cmake_object_order_depends_target_IncreasingSequenceWithFixedOR: phony || CMakeFiles/IncreasingSequenceWithFixedOR.dir
+
+build CMakeFiles/IncreasingSequenceWithFixedOR.dir/CodeForces/increasing-sequence-with-fixed-or.cpp.obj: CXX_COMPILER__IncreasingSequenceWithFixedOR_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/increasing-sequence-with-fixed-or.cpp || cmake_object_order_depends_target_IncreasingSequenceWithFixedOR
+  DEP_FILE = CMakeFiles\IncreasingSequenceWithFixedOR.dir\CodeForces\increasing-sequence-with-fixed-or.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IncreasingSequenceWithFixedOR.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncreasingSequenceWithFixedOR.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IncreasingSequenceWithFixedOR
+
+
+#############################################
+# Link the executable IncreasingSequenceWithFixedOR.exe
+
+build IncreasingSequenceWithFixedOR.exe: CXX_EXECUTABLE_LINKER__IncreasingSequenceWithFixedOR_Debug CMakeFiles/IncreasingSequenceWithFixedOR.dir/CodeForces/increasing-sequence-with-fixed-or.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IncreasingSequenceWithFixedOR.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IncreasingSequenceWithFixedOR.exe
+  TARGET_IMPLIB = libIncreasingSequenceWithFixedOR.dll.a
+  TARGET_PDB = IncreasingSequenceWithFixedOR.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TheOmnipotentMonsterKiller
+
+
+#############################################
+# Order-only phony target for TheOmnipotentMonsterKiller
+
+build cmake_object_order_depends_target_TheOmnipotentMonsterKiller: phony || CMakeFiles/TheOmnipotentMonsterKiller.dir
+
+build CMakeFiles/TheOmnipotentMonsterKiller.dir/CodeForces/the-omnipotent-monster-killer.cpp.obj: CXX_COMPILER__TheOmnipotentMonsterKiller_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/the-omnipotent-monster-killer.cpp || cmake_object_order_depends_target_TheOmnipotentMonsterKiller
+  DEP_FILE = CMakeFiles\TheOmnipotentMonsterKiller.dir\CodeForces\the-omnipotent-monster-killer.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TheOmnipotentMonsterKiller.dir
+  OBJECT_FILE_DIR = CMakeFiles\TheOmnipotentMonsterKiller.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TheOmnipotentMonsterKiller
+
+
+#############################################
+# Link the executable TheOmnipotentMonsterKiller.exe
+
+build TheOmnipotentMonsterKiller.exe: CXX_EXECUTABLE_LINKER__TheOmnipotentMonsterKiller_Debug CMakeFiles/TheOmnipotentMonsterKiller.dir/CodeForces/the-omnipotent-monster-killer.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TheOmnipotentMonsterKiller.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TheOmnipotentMonsterKiller.exe
+  TARGET_IMPLIB = libTheOmnipotentMonsterKiller.dll.a
+  TARGET_PDB = TheOmnipotentMonsterKiller.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DiverseGame
+
+
+#############################################
+# Order-only phony target for DiverseGame
+
+build cmake_object_order_depends_target_DiverseGame: phony || CMakeFiles/DiverseGame.dir
+
+build CMakeFiles/DiverseGame.dir/CodeForces/diverse-game.cpp.obj: CXX_COMPILER__DiverseGame_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/diverse-game.cpp || cmake_object_order_depends_target_DiverseGame
+  DEP_FILE = CMakeFiles\DiverseGame.dir\CodeForces\diverse-game.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DiverseGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\DiverseGame.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DiverseGame
+
+
+#############################################
+# Link the executable DiverseGame.exe
+
+build DiverseGame.exe: CXX_EXECUTABLE_LINKER__DiverseGame_Debug CMakeFiles/DiverseGame.dir/CodeForces/diverse-game.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DiverseGame.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DiverseGame.exe
+  TARGET_IMPLIB = libDiverseGame.dll.a
+  TARGET_PDB = DiverseGame.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HungryGames
+
+
+#############################################
+# Order-only phony target for HungryGames
+
+build cmake_object_order_depends_target_HungryGames: phony || CMakeFiles/HungryGames.dir
+
+build CMakeFiles/HungryGames.dir/CodeForces/hungry-games.cpp.obj: CXX_COMPILER__HungryGames_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/hungry-games.cpp || cmake_object_order_depends_target_HungryGames
+  DEP_FILE = CMakeFiles\HungryGames.dir\CodeForces\hungry-games.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HungryGames.dir
+  OBJECT_FILE_DIR = CMakeFiles\HungryGames.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HungryGames
+
+
+#############################################
+# Link the executable HungryGames.exe
+
+build HungryGames.exe: CXX_EXECUTABLE_LINKER__HungryGames_Debug CMakeFiles/HungryGames.dir/CodeForces/hungry-games.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HungryGames.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HungryGames.exe
+  TARGET_IMPLIB = libHungryGames.dll.a
+  TARGET_PDB = HungryGames.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FunnyGame
+
+
+#############################################
+# Order-only phony target for FunnyGame
+
+build cmake_object_order_depends_target_FunnyGame: phony || CMakeFiles/FunnyGame.dir
+
+build CMakeFiles/FunnyGame.dir/CodeForces/funny-game.cpp.obj: CXX_COMPILER__FunnyGame_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/funny-game.cpp || cmake_object_order_depends_target_FunnyGame
+  DEP_FILE = CMakeFiles\FunnyGame.dir\CodeForces\funny-game.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FunnyGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\FunnyGame.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FunnyGame
+
+
+#############################################
+# Link the executable FunnyGame.exe
+
+build FunnyGame.exe: CXX_EXECUTABLE_LINKER__FunnyGame_Debug CMakeFiles/FunnyGame.dir/CodeForces/funny-game.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FunnyGame.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FunnyGame.exe
+  TARGET_IMPLIB = libFunnyGame.dll.a
+  TARGET_PDB = FunnyGame.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FunGame
+
+
+#############################################
+# Order-only phony target for FunGame
+
+build cmake_object_order_depends_target_FunGame: phony || CMakeFiles/FunGame.dir
+
+build CMakeFiles/FunGame.dir/CodeForces/fun-game.cpp.obj: CXX_COMPILER__FunGame_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/fun-game.cpp || cmake_object_order_depends_target_FunGame
+  DEP_FILE = CMakeFiles\FunGame.dir\CodeForces\fun-game.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FunGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\FunGame.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FunGame
+
+
+#############################################
+# Link the executable FunGame.exe
+
+build FunGame.exe: CXX_EXECUTABLE_LINKER__FunGame_Debug CMakeFiles/FunGame.dir/CodeForces/fun-game.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FunGame.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FunGame.exe
+  TARGET_IMPLIB = libFunGame.dll.a
+  TARGET_PDB = FunGame.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SubmissionBait
+
+
+#############################################
+# Order-only phony target for SubmissionBait
+
+build cmake_object_order_depends_target_SubmissionBait: phony || CMakeFiles/SubmissionBait.dir
+
+build CMakeFiles/SubmissionBait.dir/CodeForces/submission-bait.cpp.obj: CXX_COMPILER__SubmissionBait_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/submission-bait.cpp || cmake_object_order_depends_target_SubmissionBait
+  DEP_FILE = CMakeFiles\SubmissionBait.dir\CodeForces\submission-bait.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SubmissionBait.dir
+  OBJECT_FILE_DIR = CMakeFiles\SubmissionBait.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SubmissionBait
+
+
+#############################################
+# Link the executable SubmissionBait.exe
+
+build SubmissionBait.exe: CXX_EXECUTABLE_LINKER__SubmissionBait_Debug CMakeFiles/SubmissionBait.dir/CodeForces/submission-bait.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SubmissionBait.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SubmissionBait.exe
+  TARGET_IMPLIB = libSubmissionBait.dll.a
+  TARGET_PDB = SubmissionBait.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayCraft
+
+
+#############################################
+# Order-only phony target for ArrayCraft
+
+build cmake_object_order_depends_target_ArrayCraft: phony || CMakeFiles/ArrayCraft.dir
+
+build CMakeFiles/ArrayCraft.dir/CodeForces/array-craft.cpp.obj: CXX_COMPILER__ArrayCraft_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/array-craft.cpp || cmake_object_order_depends_target_ArrayCraft
+  DEP_FILE = CMakeFiles\ArrayCraft.dir\CodeForces\array-craft.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ArrayCraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\ArrayCraft.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayCraft
+
+
+#############################################
+# Link the executable ArrayCraft.exe
+
+build ArrayCraft.exe: CXX_EXECUTABLE_LINKER__ArrayCraft_Debug CMakeFiles/ArrayCraft.dir/CodeForces/array-craft.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ArrayCraft.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ArrayCraft.exe
+  TARGET_IMPLIB = libArrayCraft.dll.a
+  TARGET_PDB = ArrayCraft.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MadMADSum
+
+
+#############################################
+# Order-only phony target for MadMADSum
+
+build cmake_object_order_depends_target_MadMADSum: phony || CMakeFiles/MadMADSum.dir
+
+build CMakeFiles/MadMADSum.dir/CodeForces/mad-MAD-sum.cpp.obj: CXX_COMPILER__MadMADSum_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/mad-MAD-sum.cpp || cmake_object_order_depends_target_MadMADSum
+  DEP_FILE = CMakeFiles\MadMADSum.dir\CodeForces\mad-MAD-sum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MadMADSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\MadMADSum.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MadMADSum
+
+
+#############################################
+# Link the executable MadMADSum.exe
+
+build MadMADSum.exe: CXX_EXECUTABLE_LINKER__MadMADSum_Debug CMakeFiles/MadMADSum.dir/CodeForces/mad-MAD-sum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MadMADSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MadMADSum.exe
+  TARGET_IMPLIB = libMadMADSum.dll.a
+  TARGET_PDB = MadMADSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GridPuzzle
+
+
+#############################################
+# Order-only phony target for GridPuzzle
+
+build cmake_object_order_depends_target_GridPuzzle: phony || CMakeFiles/GridPuzzle.dir
+
+build CMakeFiles/GridPuzzle.dir/CodeForces/grid-puzzle.cpp.obj: CXX_COMPILER__GridPuzzle_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/grid-puzzle.cpp || cmake_object_order_depends_target_GridPuzzle
+  DEP_FILE = CMakeFiles\GridPuzzle.dir\CodeForces\grid-puzzle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\GridPuzzle.dir
+  OBJECT_FILE_DIR = CMakeFiles\GridPuzzle.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GridPuzzle
+
+
+#############################################
+# Link the executable GridPuzzle.exe
+
+build GridPuzzle.exe: CXX_EXECUTABLE_LINKER__GridPuzzle_Debug CMakeFiles/GridPuzzle.dir/CodeForces/grid-puzzle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\GridPuzzle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GridPuzzle.exe
+  TARGET_IMPLIB = libGridPuzzle.dll.a
+  TARGET_PDB = GridPuzzle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IncreasingByModulo
+
+
+#############################################
+# Order-only phony target for IncreasingByModulo
+
+build cmake_object_order_depends_target_IncreasingByModulo: phony || CMakeFiles/IncreasingByModulo.dir
+
+build CMakeFiles/IncreasingByModulo.dir/CodeForces/increasing-by-modulo.cpp.obj: CXX_COMPILER__IncreasingByModulo_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/increasing-by-modulo.cpp || cmake_object_order_depends_target_IncreasingByModulo
+  DEP_FILE = CMakeFiles\IncreasingByModulo.dir\CodeForces\increasing-by-modulo.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IncreasingByModulo.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncreasingByModulo.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IncreasingByModulo
+
+
+#############################################
+# Link the executable IncreasingByModulo.exe
+
+build IncreasingByModulo.exe: CXX_EXECUTABLE_LINKER__IncreasingByModulo_Debug CMakeFiles/IncreasingByModulo.dir/CodeForces/increasing-by-modulo.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IncreasingByModulo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IncreasingByModulo.exe
+  TARGET_IMPLIB = libIncreasingByModulo.dll.a
+  TARGET_PDB = IncreasingByModulo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ThreeLogos
+
+
+#############################################
+# Order-only phony target for ThreeLogos
+
+build cmake_object_order_depends_target_ThreeLogos: phony || CMakeFiles/ThreeLogos.dir
+
+build CMakeFiles/ThreeLogos.dir/CodeForces/three-logos.cpp.obj: CXX_COMPILER__ThreeLogos_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/three-logos.cpp || cmake_object_order_depends_target_ThreeLogos
+  DEP_FILE = CMakeFiles\ThreeLogos.dir\CodeForces\three-logos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ThreeLogos.dir
+  OBJECT_FILE_DIR = CMakeFiles\ThreeLogos.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ThreeLogos
+
+
+#############################################
+# Link the executable ThreeLogos.exe
+
+build ThreeLogos.exe: CXX_EXECUTABLE_LINKER__ThreeLogos_Debug CMakeFiles/ThreeLogos.dir/CodeForces/three-logos.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ThreeLogos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ThreeLogos.exe
+  TARGET_IMPLIB = libThreeLogos.dll.a
+  TARGET_PDB = ThreeLogos.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReplaceTheNumbers
+
+
+#############################################
+# Order-only phony target for ReplaceTheNumbers
+
+build cmake_object_order_depends_target_ReplaceTheNumbers: phony || CMakeFiles/ReplaceTheNumbers.dir
+
+build CMakeFiles/ReplaceTheNumbers.dir/CodeForces/replace-the-numbers.cpp.obj: CXX_COMPILER__ReplaceTheNumbers_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/replace-the-numbers.cpp || cmake_object_order_depends_target_ReplaceTheNumbers
+  DEP_FILE = CMakeFiles\ReplaceTheNumbers.dir\CodeForces\replace-the-numbers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ReplaceTheNumbers.dir
+  OBJECT_FILE_DIR = CMakeFiles\ReplaceTheNumbers.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReplaceTheNumbers
+
+
+#############################################
+# Link the executable ReplaceTheNumbers.exe
+
+build ReplaceTheNumbers.exe: CXX_EXECUTABLE_LINKER__ReplaceTheNumbers_Debug CMakeFiles/ReplaceTheNumbers.dir/CodeForces/replace-the-numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ReplaceTheNumbers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ReplaceTheNumbers.exe
+  TARGET_IMPLIB = libReplaceTheNumbers.dll.a
+  TARGET_PDB = ReplaceTheNumbers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FriendlySpiders
+
+
+#############################################
+# Order-only phony target for FriendlySpiders
+
+build cmake_object_order_depends_target_FriendlySpiders: phony || CMakeFiles/FriendlySpiders.dir
+
+build CMakeFiles/FriendlySpiders.dir/CodeForces/friendly-spiders.cpp.obj: CXX_COMPILER__FriendlySpiders_Debug C$:/Users/liang/CLionProjects/competitive-programming/CodeForces/friendly-spiders.cpp || cmake_object_order_depends_target_FriendlySpiders
+  DEP_FILE = CMakeFiles\FriendlySpiders.dir\CodeForces\friendly-spiders.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FriendlySpiders.dir
+  OBJECT_FILE_DIR = CMakeFiles\FriendlySpiders.dir\CodeForces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FriendlySpiders
+
+
+#############################################
+# Link the executable FriendlySpiders.exe
+
+build FriendlySpiders.exe: CXX_EXECUTABLE_LINKER__FriendlySpiders_Debug CMakeFiles/FriendlySpiders.dir/CodeForces/friendly-spiders.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FriendlySpiders.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FriendlySpiders.exe
+  TARGET_IMPLIB = libFriendlySpiders.dll.a
+  TARGET_PDB = FriendlySpiders.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -13502,9 +14096,13 @@ build AntonWouldApproveThisProblem: phony AntonWouldApproveThisProblem.exe
 
 build AppleTree: phony AppleTree.exe
 
+build Aranjare: phony Aranjare.exe
+
 build ArithmeticEquality: phony ArithmeticEquality.exe
 
 build ArrayColoring: phony ArrayColoring.exe
+
+build ArrayCraft: phony ArrayCraft.exe
 
 build ArrayDescription: phony ArrayDescription.exe
 
@@ -13680,6 +14278,8 @@ build DistanceQueries: phony DistanceQueries.exe
 
 build DistinctColors: phony DistinctColors.exe
 
+build DiverseGame: phony DiverseGame.exe
+
 build DivisorChain: phony DivisorChain.exe
 
 build DoYouKnowYourABCs: phony DoYouKnowYourABCs.exe
@@ -13748,11 +14348,17 @@ build Frequencies: phony Frequencies.exe
 
 build FriendlyArrays: phony FriendlyArrays.exe
 
+build FriendlySpiders: phony FriendlySpiders.exe
+
 build Frog1: phony Frog1.exe
 
 build Frog2: phony Frog2.exe
 
 build FruitFeast: phony FruitFeast.exe
+
+build FunGame: phony FunGame.exe
+
+build FunnyGame: phony FunnyGame.exe
 
 build GCDOnAGrid: phony GCDOnAGrid.exe
 
@@ -13774,6 +14380,8 @@ build Grid1: phony Grid1.exe
 
 build GridPaths: phony GridPaths.exe
 
+build GridPuzzle: phony GridPuzzle.exe
+
 build GunnAndTeamMaking: phony GunnAndTeamMaking.exe
 
 build HamonOdyssey: phony HamonOdyssey.exe
@@ -13788,6 +14396,8 @@ build Hillington: phony Hillington.exe
 
 build HowDoesTheRookMove: phony HowDoesTheRookMove.exe
 
+build HungryGames: phony HungryGames.exe
+
 build IHateNonIntegerNumber: phony IHateNonIntegerNumber.exe
 
 build IcyPerimeter: phony IcyPerimeter.exe
@@ -13795,6 +14405,10 @@ build IcyPerimeter: phony IcyPerimeter.exe
 build InaccurateSubsequenceSearch: phony InaccurateSubsequenceSearch.exe
 
 build IncreasingAndDecreasing: phony IncreasingAndDecreasing.exe
+
+build IncreasingByModulo: phony IncreasingByModulo.exe
+
+build IncreasingSequenceWithFixedOR: phony IncreasingSequenceWithFixedOR.exe
 
 build IndependentSet: phony IndependentSet.exe
 
@@ -13880,9 +14494,13 @@ build LunchboxAndCoins: phony LunchboxAndCoins.exe
 
 build MEXanizedArray: phony MEXanizedArray.exe
 
+build MadMADSum: phony MadMADSum.exe
+
 build MakeItAlternating: phony MakeItAlternating.exe
 
 build MakeItUgly: phony MakeItUgly.exe
+
+build MakeMajority: phony MakeMajority.exe
 
 build ManhattanCircle: phony ManhattanCircle.exe
 
@@ -14050,6 +14668,8 @@ build RemovingDigits: phony RemovingDigits.exe
 
 build RentalService: phony RentalService.exe
 
+build ReplaceTheNumbers: phony ReplaceTheNumbers.exe
+
 build Rigged: phony Rigged.exe
 
 build RitwinAndComparisons: phony RitwinAndComparisons.exe
@@ -14110,6 +14730,8 @@ build Soccer: phony Soccer.exe
 
 build SoccerLeague: phony SoccerLeague.exe
 
+build SplitTheMultiset: phony SplitTheMultiset.exe
+
 build StampPainting: phony StampPainting.exe
 
 build Stickogon: phony Stickogon.exe
@@ -14125,6 +14747,8 @@ build StringSurgery: phony StringSurgery.exe
 build StrongPassword: phony StrongPassword.exe
 
 build StrongVertices: phony StrongVertices.exe
+
+build SubmissionBait: phony SubmissionBait.exe
 
 build Subsecvente: phony Subsecvente.exe
 
@@ -14170,7 +14794,11 @@ build TheManWhoBecameAGod: phony TheManWhoBecameAGod.exe
 
 build TheNumberOfImposters: phony TheNumberOfImposters.exe
 
+build TheOmnipotentMonsterKiller: phony TheOmnipotentMonsterKiller.exe
+
 build TheWalkway: phony TheWalkway.exe
+
+build ThreeLogos: phony ThreeLogos.exe
 
 build TimeIsMooney: phony TimeIsMooney.exe
 
@@ -14193,6 +14821,8 @@ build Transport2: phony Transport2.exe
 build Trebuchet: phony Trebuchet.exe
 
 build Trebuchet2: phony Trebuchet2.exe
+
+build TreeCutting: phony TreeCutting.exe
 
 build TreeDistancesI: phony TreeDistancesI.exe
 
@@ -14284,7 +14914,7 @@ build YouAreSoBeautiful: phony YouAreSoBeautiful.exe
 #############################################
 # Folder: C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug
 
-build all: phony Following_Directions.exe Dance_Mooves.exe Cablaj.exe SashaAndArrayColoring.exe LongLong.exe SumInBinaryTree.exe AppleTree.exe TrackingSegments.exe CircularBarnRevisited.exe LeastPrefixSum.exe MinimizingCoins.exe MaximumSet.exe OutOfSorts.exe RitwinAndComparisons.exe PichuAndTriominoes.exe AlexAndExpoMarkers.exe ForbiddenInteger.exe ComeTogether.exe StrongPassword.exe RatingSystem.exe Conexidad.exe Dragoni.exe GrEA.exe Partit.exe JJOOII2.exe Frog1.exe Frog2.exe Vacation.exe Knapsack1.exe Knapsack2.exe LCS.exe LongestPath.exe Grid1.exe DiceCombinations.exe CoinCombinationsI.exe CoinCombinationsII.exe RemovingDigits.exe GridPaths.exe BookShop.exe ArrayDescription.exe Bitcost.exe Base3.exe TheManWhoBecameAGod.exe HamonOdyssey.exe VampiricPowers.exe Ramen.exe Ninjago.exe RudolphAndCutTheRope.exe RudolphAndTicTacToe.exe RudolphAndAnotherCompetition.exe RudolphAndChristmasTree.exe RudolphAndSnowflakes.exe TeamWork.exe FlipCards.exe MaxMultiple.exe TimeIsMooney.exe StampPainting.exe FruitFeast.exe IndexTimesA.exe BetweenTwoArrays.exe IHateNonIntegerNumber.exe Cezar.exe StoneGame.exe Tairos.exe TreeMatching.exe IndependentSet.exe VikaAndHerFriends.exe VikaAndTheBridge.exe VikaAndPriceTags.exe TreeDistancesI.exe TreeDistancesII.exe Subsecvente.exe Interesant.exe FineDining.exe TalesOfASort.exe GoodArrays.exe ToBecomeMax.exe PermuTree.exe Transport2.exe Asmax.exe BinaryStringCopying.exe ArrayColoring.exe MaximumRounding.exe AssemblyViaMinimums.exe StrongVertices.exe PowerOfPoints.exe BuckepotatoFanClub.exe Hillington.exe TreeFolding.exe Cuplaje.exe SecretulCifrului.exe Parcare.exe Nrsubsecv.exe Turcane.exe CaveExploration.exe PolycarpAndTheDayOfPi.exe TaisiaAndDice.exe Premutation.exe Matryoshkas.exe VladAndAPairOfNumbers.exe UnitedWeStand.exe OlyaAndGameWithArrays.exe AnotherPermutationProblem.exe AndreyAndEscapeFromCapygrad.exe Skyscrapers.exe Minecraft.exe BarnPainting.exe 248.exe Buttons.exe TheWalkway.exe YetAnotherPermutationProblem.exe LeftOut.exe Pictorul.exe IncreasingAndDecreasing.exe SwapAndReverse.exe DivisorChain.exe Leximin.exe Nondecreasing.exe Papricice.exe TinyTypes.exe Advertisement2.exe CompanyQueriesII.exe DistanceQueries.exe SlothNaptime.exe PlanetsQueriesI.exe MaxFlow.exe Trampoline.exe Crescator.exe DynamicRangeSumQueries.exe NumOfMinOnASegment.exe Inversions.exe Suporter.exe FennecVsSnuke.exe FireCrackers.exe MinMaxSort.exe SegTreeSums.exe SegTreeMin.exe SegTreeMaxSum.exe ListRemovals.exe KthOne.exe FirstElementAtLeastX.exe FirstElementAtLeastX2.exe ABgraf.exe MEXanizedArray.exe FriendlyArrays.exe ColorfulTable.exe PrefixPurchase.exe Acowdemia.exe DoYouKnowYourABCs.exe Rigged.exe ChipsOnTheBoard.exe MakeItAlternating.exe InteractivegGamewithColoring.exe NestedRangesCheck.exe CompleteBinaryTree.exe 23.exe HiHiThereThereMagicSquare.exe AlexRevolt2.exe PichuAndTetrominoes.exe LunchboxAndCoins.exe SubtreeQueries.exe DistinctColors.exe ExactlyKSteps.exe Insule.exe ABX.exe Pascal.exe Transfromare.exe Sap.exe Sugubatz.exe ConventionII.exe RectangularPasture.exe IcyPerimeter.exe TheGreatRevegtation.exe Cereal.exe SecretCowCode.exe BuildGates.exe SwapitySwapitySwap.exe Triangles.exe Dances.exe YouAreSoBeautiful.exe Subway.exe Lifeguards.exe RentalService.exe Mean.exe FoehnPhenomena.exe MaximumDistance.exe TornLuckyTicket.exe AntonWouldApproveThisProblem.exe Orase.exe TripleReverseSort.exe Mirror.exe XORConstruction.exe SmiloAndMonsters.exe Anagram.exe Xorstanta.exe StringStreak.exe HillClimb.exe InterestingArray.exe ArithmeticEquality.exe BackToTheHimalayas.exe FataMorgana.exe Vaccination.exe MiliciaAndString.exe MilenaAndAdmirer.exe ColorfulGrid.exe BinaryChess.exe PingPong.exe WhyDidTheCowCrossTheRoadIISilver.exe WhyDidTheCowCrossTheRoadIIISilver.exe BerryPicking.exe Extrapare.exe Triprime.exe QpwoeirutAndInvestors.exe GunnAndTeamMaking.exe PichuAndPentominoes.exe LineTrip.exe ChipAndRibbon.exe AddDivideAndFloor.exe YetAnotherMonsterFight.exe Raganama.exe JaggedSwaps.exe ABFlipping.exe MatchingArrays.exe CoverInWater.exe LauraAndOperations.exe AnjiBinaryTree.exe SmallGCD.exe Nrpits.exe MilkMeasurement.exe MultiMi.exe Mario.exe TheBovineShuffle.exe Trebuchet.exe Trebuchet2.exe Pareidolia.exe EmailFiling.exe EVIP.exe NXY.exe LoanReplacement.exe ComfortableCows.exe YearOfTheCow.exe JustGreenEnough.exe RedistributingGifts.exe ClosetCowWins.exe ConnectingTwoBarns.exe Cereal2.exe BovineAcrobatics.exe CycleCorrespondence.exe TargetPractice.exe StringImbalance.exe CatalinAndBinarySorting.exe FindAndReplace.exe MooRoute.exe XFactor.exe Cowpatibility.exe Diff.exe Inversiuni.exe Moocast.exe LasersAndMirrors.exe AwesomeArrowlandAdveture.exe Mostenire.exe GoodIntervals.exe Teleportation.exe MilkingOrder.exe CollectingCoins.exe DeleteOneDigit.exe LarkAndNightingale.exe CitySkylines.exe LuckySudoku.exe BitShowdown.exe BessieAndDominos.exe BessieAndSelection.exe Viitor.exe Cowmpetency.exe PotionFarming.exe Cowlendar.exe CitySkylinesGen.exe LarryTheLizard.exe Numinum.exe FactoradicFactory.exe JefferyAndNewYears.exe Lemans.exe Fibosnek.exe FlightRoutes.exe Visits.exe SubsetEquality.exe COWOperations.exe MilkPumping.exe TargetPracticeII.exe Moorbles.exe TestTubes.exe RangeReconstruction.exe Pietricele.exe Bolovani.exe VladAndAvodingX.exe VladAndTroubleAtMIT.exe MilkExchangeBronze.exe MilkExchangeGold.exe TriNumArray.exe BalancedDifference.exe ProducingDigits.exe FarmerJohnCities.exe TwoWayHomework.exe CheatingTheGroupSystem.exe SoccerLeague.exe XYQueries.exe BessiesInterview.exe PaintingFencePosts.exe MooLanguage.exe GregorMaxLength.exe BinarySearch.exe KirillAndMushrooms.exe Calancea.exe Opsir.exe BessiesBirthdayCake.exe LearnToPaint.exe Birocratie.exe Frequencies.exe YogurtSale.exe ProgressiveSquare.exe InhabitantOfTheDeepSea.exe InaccurateSubsequenceSearch.exe LongInversions.exe GCDOnAGrid.exe Nestemate.exe EQ4.exe Castel.exe PaintingTheRibbon.exe MakeItUgly.exe LongMultiplication.exe Turnuri.exe Asort.exe Nebuni.exe FSB.exe VIP.exe Stickogon.exe ABITOfConstruction.exe HowDoesTheRookMove.exe RunningMiles.exe LCSOnPermutations.exe CardExchange.exe RectangleFilling.exe EverythingNim.exe DreamsApprentice.exe StringSurgery.exe GibNebPerilousPlot.exe EvenSubarrays.exe MissingSubsequenceSum.exe Expresie.exe Kmajo.exe Pictura.exe Secv9.exe ConsecutiveMaxDiff.exe CatFoxDoubleMax.exe BitwiseOperationWizard.exe Compresie.exe AndrewAndStones.exe YetAnotherMinimizationProblem.exe SetConstruction.exe JobInterview.exe DataStructureFan.exe NenesMagicalMatrix.exe TheNumberOfImposters.exe DidWeGetEverythingCovered.exe GCDSequence.exe CreatingWords.exe MaxMultipleSum.exe GoodPrefixes.exe ManhattanCircle.exe SecretBox.exe FinalBoss.exe MaxLargestComponent.exe DoraAndSearch.exe MoscowGorillas.exe KoxiaAndNumberTheory.exe AddModulo10.exe Sirpal.exe NeneAndTheMEXOperator.exe QuizMaster.exe BeautifulArray.exe Soccer.exe CollatzConjecture.exe BoringDay.exe BeautyOfTheMountains.exe CatchTheCoin.exe SubstringAndSubsequence.exe TwoMovies.exe SmithingSkill.exe MathematicalProblem.exe Cochilie.exe TommysToy.exe SetToMax.exe DoubleRow.exe ByElevatorOrStairs.exe WarehouseStore.exe ScoreOfATree.exe ArrayDivisibility.exe CornerTwist.exe HaveYourCakeAndEatItToo.exe Xor.exe WarehouseStoreSZKOpul.exe Cokolade.exe Sabor.exe Parametriziran.exe Scoazze.exe WormholeSort.exe
+build all: phony Following_Directions.exe Dance_Mooves.exe Cablaj.exe SashaAndArrayColoring.exe LongLong.exe SumInBinaryTree.exe AppleTree.exe TrackingSegments.exe CircularBarnRevisited.exe LeastPrefixSum.exe MinimizingCoins.exe MaximumSet.exe OutOfSorts.exe RitwinAndComparisons.exe PichuAndTriominoes.exe AlexAndExpoMarkers.exe ForbiddenInteger.exe ComeTogether.exe StrongPassword.exe RatingSystem.exe Conexidad.exe Dragoni.exe GrEA.exe Partit.exe JJOOII2.exe Frog1.exe Frog2.exe Vacation.exe Knapsack1.exe Knapsack2.exe LCS.exe LongestPath.exe Grid1.exe DiceCombinations.exe CoinCombinationsI.exe CoinCombinationsII.exe RemovingDigits.exe GridPaths.exe BookShop.exe ArrayDescription.exe Bitcost.exe Base3.exe TheManWhoBecameAGod.exe HamonOdyssey.exe VampiricPowers.exe Ramen.exe Ninjago.exe RudolphAndCutTheRope.exe RudolphAndTicTacToe.exe RudolphAndAnotherCompetition.exe RudolphAndChristmasTree.exe RudolphAndSnowflakes.exe TeamWork.exe FlipCards.exe MaxMultiple.exe TimeIsMooney.exe StampPainting.exe FruitFeast.exe IndexTimesA.exe BetweenTwoArrays.exe IHateNonIntegerNumber.exe Cezar.exe StoneGame.exe Tairos.exe TreeMatching.exe IndependentSet.exe VikaAndHerFriends.exe VikaAndTheBridge.exe VikaAndPriceTags.exe TreeDistancesI.exe TreeDistancesII.exe Subsecvente.exe Interesant.exe FineDining.exe TalesOfASort.exe GoodArrays.exe ToBecomeMax.exe PermuTree.exe Transport2.exe Asmax.exe BinaryStringCopying.exe ArrayColoring.exe MaximumRounding.exe AssemblyViaMinimums.exe StrongVertices.exe PowerOfPoints.exe BuckepotatoFanClub.exe Hillington.exe TreeFolding.exe Cuplaje.exe SecretulCifrului.exe Parcare.exe Nrsubsecv.exe Turcane.exe CaveExploration.exe PolycarpAndTheDayOfPi.exe TaisiaAndDice.exe Premutation.exe Matryoshkas.exe VladAndAPairOfNumbers.exe UnitedWeStand.exe OlyaAndGameWithArrays.exe AnotherPermutationProblem.exe AndreyAndEscapeFromCapygrad.exe Skyscrapers.exe Minecraft.exe BarnPainting.exe 248.exe Buttons.exe TheWalkway.exe YetAnotherPermutationProblem.exe LeftOut.exe Pictorul.exe IncreasingAndDecreasing.exe SwapAndReverse.exe DivisorChain.exe Leximin.exe Nondecreasing.exe Papricice.exe TinyTypes.exe Advertisement2.exe CompanyQueriesII.exe DistanceQueries.exe SlothNaptime.exe PlanetsQueriesI.exe MaxFlow.exe Trampoline.exe Crescator.exe DynamicRangeSumQueries.exe NumOfMinOnASegment.exe Inversions.exe Suporter.exe FennecVsSnuke.exe FireCrackers.exe MinMaxSort.exe SegTreeSums.exe SegTreeMin.exe SegTreeMaxSum.exe ListRemovals.exe KthOne.exe FirstElementAtLeastX.exe FirstElementAtLeastX2.exe ABgraf.exe MEXanizedArray.exe FriendlyArrays.exe ColorfulTable.exe PrefixPurchase.exe Acowdemia.exe DoYouKnowYourABCs.exe Rigged.exe ChipsOnTheBoard.exe MakeItAlternating.exe InteractivegGamewithColoring.exe NestedRangesCheck.exe CompleteBinaryTree.exe 23.exe HiHiThereThereMagicSquare.exe AlexRevolt2.exe PichuAndTetrominoes.exe LunchboxAndCoins.exe SubtreeQueries.exe DistinctColors.exe ExactlyKSteps.exe Insule.exe ABX.exe Pascal.exe Transfromare.exe Sap.exe Sugubatz.exe ConventionII.exe RectangularPasture.exe IcyPerimeter.exe TheGreatRevegtation.exe Cereal.exe SecretCowCode.exe BuildGates.exe SwapitySwapitySwap.exe Triangles.exe Dances.exe YouAreSoBeautiful.exe Subway.exe Lifeguards.exe RentalService.exe Mean.exe FoehnPhenomena.exe MaximumDistance.exe TornLuckyTicket.exe AntonWouldApproveThisProblem.exe Orase.exe TripleReverseSort.exe Mirror.exe XORConstruction.exe SmiloAndMonsters.exe Anagram.exe Xorstanta.exe StringStreak.exe HillClimb.exe InterestingArray.exe ArithmeticEquality.exe BackToTheHimalayas.exe FataMorgana.exe Vaccination.exe MiliciaAndString.exe MilenaAndAdmirer.exe ColorfulGrid.exe BinaryChess.exe PingPong.exe WhyDidTheCowCrossTheRoadIISilver.exe WhyDidTheCowCrossTheRoadIIISilver.exe BerryPicking.exe Extrapare.exe Triprime.exe QpwoeirutAndInvestors.exe GunnAndTeamMaking.exe PichuAndPentominoes.exe LineTrip.exe ChipAndRibbon.exe AddDivideAndFloor.exe YetAnotherMonsterFight.exe Raganama.exe JaggedSwaps.exe ABFlipping.exe MatchingArrays.exe CoverInWater.exe LauraAndOperations.exe AnjiBinaryTree.exe SmallGCD.exe Nrpits.exe MilkMeasurement.exe MultiMi.exe Mario.exe TheBovineShuffle.exe Trebuchet.exe Trebuchet2.exe Pareidolia.exe EmailFiling.exe EVIP.exe NXY.exe LoanReplacement.exe ComfortableCows.exe YearOfTheCow.exe JustGreenEnough.exe RedistributingGifts.exe ClosetCowWins.exe ConnectingTwoBarns.exe Cereal2.exe BovineAcrobatics.exe CycleCorrespondence.exe TargetPractice.exe StringImbalance.exe CatalinAndBinarySorting.exe FindAndReplace.exe MooRoute.exe XFactor.exe Cowpatibility.exe Diff.exe Inversiuni.exe Moocast.exe LasersAndMirrors.exe AwesomeArrowlandAdveture.exe Mostenire.exe GoodIntervals.exe Teleportation.exe MilkingOrder.exe CollectingCoins.exe DeleteOneDigit.exe LarkAndNightingale.exe CitySkylines.exe LuckySudoku.exe BitShowdown.exe BessieAndDominos.exe BessieAndSelection.exe Viitor.exe Cowmpetency.exe PotionFarming.exe Cowlendar.exe CitySkylinesGen.exe LarryTheLizard.exe Numinum.exe FactoradicFactory.exe JefferyAndNewYears.exe Lemans.exe Fibosnek.exe FlightRoutes.exe Visits.exe SubsetEquality.exe COWOperations.exe MilkPumping.exe TargetPracticeII.exe Moorbles.exe TestTubes.exe RangeReconstruction.exe Pietricele.exe Bolovani.exe VladAndAvodingX.exe VladAndTroubleAtMIT.exe MilkExchangeBronze.exe MilkExchangeGold.exe TriNumArray.exe BalancedDifference.exe ProducingDigits.exe FarmerJohnCities.exe TwoWayHomework.exe CheatingTheGroupSystem.exe SoccerLeague.exe XYQueries.exe BessiesInterview.exe PaintingFencePosts.exe MooLanguage.exe GregorMaxLength.exe BinarySearch.exe KirillAndMushrooms.exe Calancea.exe Opsir.exe BessiesBirthdayCake.exe LearnToPaint.exe Birocratie.exe Frequencies.exe YogurtSale.exe ProgressiveSquare.exe InhabitantOfTheDeepSea.exe InaccurateSubsequenceSearch.exe LongInversions.exe GCDOnAGrid.exe Nestemate.exe EQ4.exe Castel.exe PaintingTheRibbon.exe MakeItUgly.exe LongMultiplication.exe Turnuri.exe Asort.exe Nebuni.exe FSB.exe VIP.exe Stickogon.exe ABITOfConstruction.exe HowDoesTheRookMove.exe RunningMiles.exe LCSOnPermutations.exe CardExchange.exe RectangleFilling.exe EverythingNim.exe DreamsApprentice.exe StringSurgery.exe GibNebPerilousPlot.exe EvenSubarrays.exe MissingSubsequenceSum.exe Expresie.exe Kmajo.exe Pictura.exe Secv9.exe ConsecutiveMaxDiff.exe CatFoxDoubleMax.exe BitwiseOperationWizard.exe Compresie.exe AndrewAndStones.exe YetAnotherMinimizationProblem.exe SetConstruction.exe JobInterview.exe DataStructureFan.exe NenesMagicalMatrix.exe TheNumberOfImposters.exe DidWeGetEverythingCovered.exe GCDSequence.exe CreatingWords.exe MaxMultipleSum.exe GoodPrefixes.exe ManhattanCircle.exe SecretBox.exe FinalBoss.exe MaxLargestComponent.exe DoraAndSearch.exe MoscowGorillas.exe KoxiaAndNumberTheory.exe AddModulo10.exe Sirpal.exe NeneAndTheMEXOperator.exe QuizMaster.exe BeautifulArray.exe Soccer.exe CollatzConjecture.exe BoringDay.exe BeautyOfTheMountains.exe CatchTheCoin.exe SubstringAndSubsequence.exe TwoMovies.exe SmithingSkill.exe MathematicalProblem.exe Cochilie.exe TommysToy.exe SetToMax.exe DoubleRow.exe ByElevatorOrStairs.exe WarehouseStore.exe ScoreOfATree.exe ArrayDivisibility.exe CornerTwist.exe HaveYourCakeAndEatItToo.exe Xor.exe WarehouseStoreSZKOpul.exe Cokolade.exe Sabor.exe Parametriziran.exe Scoazze.exe WormholeSort.exe Aranjare.exe TreeCutting.exe SplitTheMultiset.exe MakeMajority.exe IncreasingSequenceWithFixedOR.exe TheOmnipotentMonsterKiller.exe DiverseGame.exe HungryGames.exe FunnyGame.exe FunGame.exe SubmissionBait.exe ArrayCraft.exe MadMADSum.exe GridPuzzle.exe IncreasingByModulo.exe ThreeLogos.exe ReplaceTheNumbers.exe FriendlySpiders.exe
 
 # =============================================================================
 # Built-in targets
