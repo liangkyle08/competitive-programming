@@ -4,70 +4,66 @@ using namespace std;
 #define fi first
 #define se second
 
+mt19937 rng((uint32_t)chrono::steady_clock::now().time_since_epoch().count());
+
 const int MOD = 1e9+7;
+const int BASE = uniform_int_distribution<long long>(0, MOD - 1)(rng);
 const int INF = (1<<30);
 const long long LL_INF = (1LL<<60);
 
+const int MAX_N = 1e5;
+const int MAX_M = 5e6;
+
 string s, t;
+int N, M;
 bool A[(int)1e5 + 5];
+int cnt[2];
+long long power[MAX_M + 5];
+long long textHash[MAX_M + 5];
+
+bool check(int n0, int n1) {
+    int ind = 0;
+    long long patternHash[2] = {-1, -1};
+    for (int i = 1; i <= N; i++) {
+        int len = (A[i] ? n1 : n0);
+        long long startHash = textHash[ind];
+        long long endHash = textHash[ind + len];
+        long long currHash = (endHash - ((startHash * power[len]) % MOD) + MOD) % MOD;
+        if (patternHash[A[i]] == -1) {
+            patternHash[A[i]] = currHash;
+        }
+        else if (patternHash[A[i]] != currHash) {
+            return false;
+        }
+        ind += len;
+    }
+    if (n0 == n1 && patternHash[0] == patternHash[1]) return false;
+    return true;
+}
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> s >> t;
-    int numZero = 0;
-    int numOnes = 0;
-    for (int i = 0; i < (int)s.size(); i++) {
-        A[i] = s[i] - '0';
-        if (!A[i]) numZero++;
-        if (A[i]) numOnes++;
+    N = s.size();
+    M = t.size();
+    for (int i = 1; i <= N; i++) {
+        A[i] = s[i - 1] - '0';
+        cnt[A[i]]++;
     }
-    if (numZero == 0 || numOnes == 0) {
-        if (numOnes > 0 && (int)t.size() % numOnes != 0) {
-            cout << 0 << "\n";
-            return 0;
-        }
-        if (numZero > 0 && (int)t.size() % numZero != 0) {
-            cout << 0 << "\n";
-            return 0;
-        }
-        int len = (int)t.size() / (numOnes > 0 ? numOnes : numZero);
-        string val = t.substr(0, len);
-        int i = 0;
-        int j = 0;
-        while (i < (int)s.size()) {
-            if (val != t.substr(j, len)) {
-                cout << 0 << "\n";
-                return 0;
-            }
-            j += len;
-            i++;
-        }
-        cout << 1 << "\n";
-        return 0;
+    power[0] = 1;
+    for (int i = 1; i <= M; i++) {
+        power[i] = (power[i - 1] * BASE) % MOD;
+    }
+    for (int i = 1; i <= M; i++) {
+        textHash[i] = (textHash[i - 1] * BASE + (t[i - 1] - 'a')) % MOD;
     }
     int ans = 0;
-    for (int len1 = 1; len1 <= (int)t.size(); len1++) {
-        if (((int)t.size() - len1 * numZero) % numOnes != 0) continue;
-        int len2 = ((int)t.size() - len1 * numZero) / numOnes;
-        if (len2 <= 0) continue;
-        string val[2] = {"#", "#"};
-        int i = 0;
-        int j = 0;
-        bool flag = false;
-        while (i < (int)s.size()) {
-            if (val[A[i]] == "#") {
-                val[A[i]] = t.substr(j, (A[i] ? len2 : len1));
-            }
-            else if (val[A[i]] != t.substr(j, (A[i] ? len2 : len1))) {
-                flag = true;
-                break;
-            }
-            j += (A[i] ? len2 : len1);
-            i++;
-        }
-        if (flag || val[0] == val[1]) continue;
-        ans++;
+    for (int i = 1; i < M; i++) {
+        if ((M - i * cnt[0]) % cnt[1] != 0) continue;
+        int j = (M - i * cnt[0]) / cnt[1];
+        if (j < 1 || j >= M) continue;
+        ans += check(i, j);
     }
     cout << ans << "\n";
 }

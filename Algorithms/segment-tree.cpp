@@ -1,14 +1,20 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 #define fi first
 #define se second
 
 const int MOD = 1e9+7;
+const int INF = (1<<30);
+const int ALP = 26;
+const long long LL_INF = (1LL<<60);
+
+const int MAX_N = 5e5; // Adjust based on the problem
 
 int N, Q;
-long long arr[200001];
-long long segTree[800001]; // 4 times size of N
+long long arr[MAX_N + 5];
+long long segTree[4 * MAX_N + 5]; // 4 times size of N
 
 void update(int node, int L, int R, int pos, int val) {
     if (L == R) {
@@ -17,26 +23,29 @@ void update(int node, int L, int R, int pos, int val) {
     }
     int mid = (L + R) / 2;
     if (pos <= mid) {
-        update(2*node, L, mid, pos, val);
+        update(2 * node, L, mid, pos, val);
     }
     else {
-        update(2*node+1, mid+1, R, pos, val);
+        update(2 * node + 1, mid + 1, R, pos, val);
     }
-    segTree[node] = segTree[2*node]+segTree[2*node+1];
+    segTree[node] = segTree[2 * node] + segTree[2 * node + 1];
+    // segTree[node] = max(segTree[2 * node], segTree[2 * node + 1]);
 }
 
 long long query(int node, int L, int R, int Lq, int Rq) {
     if (R < Lq || L > Rq) {
         return 0LL;
+        // return -LL_INF
     }
     if (Lq <= L && R <= Rq) {
         return segTree[node];
     }
     int mid = (L + R) / 2;
-    return query(2*node, L, mid, Lq, Rq)+query(2*node+1, mid+1, R, Lq, Rq);
+    return query(2 * node, L, mid, Lq, Rq) + query(2 * node + 1, mid + 1, R, Lq, Rq);
+    // return max(query(2 * node, L, mid, Lq, Rq), query(2 * node + 1, mid + 1, R, Lq, Rq));
 }
 
-int main() {
+int main () {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> N >> Q;
