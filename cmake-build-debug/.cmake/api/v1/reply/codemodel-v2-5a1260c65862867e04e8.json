@@ -455,7 +455,8 @@
 						437,
 						438,
 						439,
-						440
+						440,
+						441
 					]
 				}
 			],
@@ -910,7 +911,8 @@
 						437,
 						438,
 						439,
-						440
+						440,
+						441
 					]
 				}
 			],
@@ -1383,6 +1385,13 @@
 					"id" : "CaveExploration::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CaveExploration-Debug-890e787a9039bdd156d6.json",
 					"name" : "CaveExploration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CensoringSilver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CensoringSilver-Debug-9f84a413bd92933ae283.json",
+					"name" : "CensoringSilver",
 					"projectIndex" : 0
 				},
 				{
