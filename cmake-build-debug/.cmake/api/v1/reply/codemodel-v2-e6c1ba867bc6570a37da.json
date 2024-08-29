@@ -456,7 +456,16 @@
 						438,
 						439,
 						440,
-						441
+						441,
+						442,
+						443,
+						444,
+						445,
+						446,
+						447,
+						448,
+						449,
+						450
 					]
 				}
 			],
@@ -912,7 +921,16 @@
 						438,
 						439,
 						440,
-						441
+						441,
+						442,
+						443,
+						444,
+						445,
+						446,
+						447,
+						448,
+						449,
+						450
 					]
 				}
 			],
@@ -1056,6 +1074,13 @@
 					"id" : "Aranjare::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Aranjare-Debug-3ef4b8d94d118046b8b7.json",
 					"name" : "Aranjare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Arbore3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Arbore3-Debug-65281cbfd2fe9b6bd33b.json",
+					"name" : "Arbore3",
 					"projectIndex" : 0
 				},
 				{
@@ -1613,6 +1638,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Copii::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Copii-Debug-3e4379f416a44f988444.json",
+					"name" : "Copii",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "CornerTwist::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CornerTwist-Debug-ff5eb7c953f272c445c8.json",
 					"name" : "CornerTwist",
@@ -1879,6 +1911,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "FarmerJohnSolves3Sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FarmerJohnSolves3Sum-Debug-cf378fb92dc7b154e747.json",
+					"name" : "FarmerJohnSolves3Sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "FastestRouteInMassachusetts::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-FastestRouteInMassachusetts-Debug-ddac51c02d11f540a918.json",
 					"name" : "FastestRouteInMassachusetts",
@@ -1917,6 +1956,13 @@
 					"id" : "FindAndReplace::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-FindAndReplace-Debug-5d5f3d6af586241f8ded.json",
 					"name" : "FindAndReplace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FindingPeriods::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FindingPeriods-Debug-46af61d84a924b2bdb6e.json",
+					"name" : "FindingPeriods",
 					"projectIndex" : 0
 				},
 				{
@@ -2061,6 +2107,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "GeneratePermutation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GeneratePermutation-Debug-1e96a6ebbe7d525db1d0.json",
+					"name" : "GeneratePermutation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "GibNebPerilousPlot::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-GibNebPerilousPlot-Debug-befc9aaa44a125a207ff.json",
 					"name" : "GibNebPerilousPlot",
@@ -2120,6 +2173,13 @@
 					"id" : "GridPuzzle::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-GridPuzzle-Debug-8c8b45f54f75f50afdfd.json",
 					"name" : "GridPuzzle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GuessTheTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GuessTheTree-Debug-4bb1d75a1717c41ee73f.json",
+					"name" : "GuessTheTree",
 					"projectIndex" : 0
 				},
 				{
@@ -2519,6 +2579,13 @@
 					"id" : "MadMADSum::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-MadMADSum-Debug-7c5e4def7d928200c1b7.json",
 					"name" : "MadMADSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MakeAllEqual::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MakeAllEqual-Debug-7c0fe7d497fbdec6f35d.json",
+					"name" : "MakeAllEqual",
 					"projectIndex" : 0
 				},
 				{
@@ -3202,6 +3269,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Rufe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Rufe-Debug-e2bc7f84d7e344466cdc.json",
+					"name" : "Rufe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "RunningMiles::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-RunningMiles-Debug-11338ca337ecd1e6f1a6.json",
 					"name" : "RunningMiles",
@@ -3401,6 +3475,13 @@
 					"id" : "StoneGame::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-StoneGame-Debug-94c1f61feec4b1e034e3.json",
 					"name" : "StoneGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "String::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-String-Debug-fdaefc37cf3709285f14.json",
+					"name" : "String",
 					"projectIndex" : 0
 				},
 				{
