@@ -13,34 +13,37 @@ const int MAX_N = 1e6;
 
 int N, target;
 int val[MAX_N + 5];
-int pSum[MAX_N + 5];
 vector<int> adjList[MAX_N + 5];
-map<int, int> cnt;
-int ans = 0;
+unordered_map<long long, long long> cnt;
+long long ans = 0;
 
-void DFS(int node, int parent) {
-    pSum[node] = pSum[parent] + val[node];
-    cnt[pSum[node]]++;
-    for (auto &child: adjList[node]) {
+void DFS(int node, int parent, long long sum) {
+    sum += val[node];
+    ans += cnt[sum - target];
+    cnt[sum]++;
+    for (auto child: adjList[node]) {
         if (child == parent) continue;
-        DFS(child, node);
+        DFS(child, node, sum);
     }
-    cnt[pSum[node]]--;
-    ans += (cnt[pSum[node] - target] + (val[node] == target));
+    cnt[sum]--;
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    //freopen("arbore3.in", "r", stdin);
-    //freopen("arbore3.out", "w", stdout);
+    freopen("arbore3.in", "r", stdin);
+    freopen("arbore3.out", "w", stdout);
+    cnt[0] = 1;
     cin >> N >> target;
     for (int u = 1; u <= N; u++) {
         int v, curVal;
         cin >> v >> curVal;
-        adjList[v].push_back(u);
+        if (v != 0) {
+            adjList[v].push_back(u);
+            adjList[u].push_back(v);
+        }
         val[u] = curVal;
     }
-    DFS(1, 0);
+    DFS(1, 0, 0);
     cout << ans << "\n";
 }
