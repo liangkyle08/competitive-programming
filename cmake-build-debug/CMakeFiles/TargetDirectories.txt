@@ -468,5 +468,11 @@ C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFile
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/KleesSuperDuperLargeArray.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Fireflys-Queries.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/MooRouteII.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Armchairs.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/BusTripEstonia.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/SimplePalindrome.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/TheStrictTeacher.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/LazyNarek.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/MultiplayerMoo.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

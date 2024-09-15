@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define f first
-#define s second
+#define fi first
+#define se second
 
 int N, M;
 vector<pair<int, long long>> adjList[100001];
@@ -25,13 +25,13 @@ int main() {
     while (!pq.empty()) {
         pair<long long, int> node = pq.top();
         pq.pop();
-        if (seen[node.s]) continue;
-        seen[node.s] = true;
-        for (auto child: adjList[node.s]) {
-            long long cost = -node.f + child.s;
-            if (cost < minCost[child.f]) {
-                minCost[child.f] = cost;
-                pq.push({-cost, child.f});
+        if (seen[node.se]) continue;
+        seen[node.se] = true;
+        for (auto child: adjList[node.se]) {
+            long long cost = -node.fi + child.se;
+            if (cost < minCost[child.fi]) {
+                minCost[child.fi] = cost;
+                pq.push({-cost, child.fi});
             }
         }
     }
