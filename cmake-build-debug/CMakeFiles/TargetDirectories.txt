@@ -526,5 +526,9 @@ C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFile
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Bridge.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Literally1984.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/HamiltonianWall.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/SharkySurfing.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/FavoriteSequences.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/CifJump.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/CircularBarn.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
