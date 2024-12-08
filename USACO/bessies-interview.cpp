@@ -13,12 +13,13 @@ const int MAX_N = 3e5;
 
 int N, K;
 long long T[MAX_N + 5];
-vector<int> adjList[MAX_N + 5];
-bool seen[MAX_N + 5];
+long long A[MAX_N + 5];
+unordered_map<long long, vector<long long>> adjList;
+set<long long> seen;
 
-void DFS(int node) {
-    if (seen[node]) return;
-    seen[node] = true;
+void DFS(long long node) {
+    if (seen.find(node) != seen.end()) return;
+    seen.insert(node);
     for (auto &child: adjList[node]) {
         DFS(child);
     }
@@ -32,36 +33,22 @@ int main() {
         cin >> T[i];
     }
     priority_queue<long long> pq;
-    unordered_map<long long, vector<int>> ind;
     for (int i = 1; i <= K; i++) {
         pq.push(-T[i]);
-        if (!ind[T[i]].empty()) {
-            int j = ind[T[i]].back();
-            adjList[i].push_back(j);
-            adjList[j].push_back(i);
-        }
-        ind[T[i]].push_back(i);
+        adjList[T[i]].push_back(0);
+        A[i] = T[i];
     }
     for (int i = K + 1; i <= N; i++) {
         long long curTime = -pq.top();
-        int curInd = ind[curTime].back();
         pq.pop();
-        ind[curTime].pop_back();
-        if (ind[curTime].empty()) ind.erase(curTime);
-        long long newTime = curTime + T[i];
-        if (!ind[newTime].empty()) {
-            int prvInd = ind[newTime].back();
-            adjList[curInd].push_back(prvInd);
-            adjList[prvInd].push_back(curInd);
-        }
-        pq.push(-newTime);
-        ind[newTime].push_back(curInd);
+        A[i] = curTime + T[i];
+        adjList[A[i]].push_back(curTime);
+        pq.push(-A[i]);
     }
-    long long finalTime = -pq.top();
-    int root = ind[finalTime].back();
+    long long root = -pq.top();
     DFS(root);
-    cout << finalTime << "\n";
+    cout << root << "\n";
     for (int i = 1; i <= K; i++) {
-        cout << seen[i];
+        cout << (seen.find(A[i]) != seen.end());
     } cout << "\n";
 }
