@@ -7,6 +7,76 @@ using namespace std;
 const int MOD = 1e9+7;
 
 int T, N, P;
+vector<int> tubes[3];
+vector<pair<int, int>> moves;
+
+vector<int> compressString(string s) {
+    vector<int> arr;
+    for (int i = 0; i < (int)s.size(); i++) {
+        if (!arr.empty() && arr.back() == s[i]) continue;
+        arr.push_back(s[i]);
+    }
+    return arr;
+}
+
+void move(int src, int dst) {
+    moves.push_back({src, dst});
+    if (tubes[dst].empty() || tubes[dst].back() != tubes[src].back()) {
+        tubes[dst].push_back(tubes[src].back());
+    }
+    tubes[src].pop_back();
+}
+
+void solve() {
+    cin >> N >> P;
+    string f, s;
+    cin >> f >> s;
+    tubes[0] = compressString(f);
+    tubes[1] = compressString(s);
+    tubes[2].clear();
+    moves.clear();
+    if (tubes[0][0] == tubes[1][0]) tubes[0].insert(tubes[0].begin(), tubes[0][0] ^ 3);
+    int ans = (int)tubes[0].size() + (int)tubes[1].size() - 2;
+    if (ans > 1) ans++;
+    cout << ans << "\n";
+    if (P == 1) return;
+    if (tubes[0].back() == tubes[1].back()) {
+        if ((int)tubes[0].size() > (int)tubes[1].size()) {
+            move(0, 1);
+        }
+        else {
+            move(1, 0);
+        }
+    }
+    for (int i = 0; i < 2; i++) {
+        if ((int)tubes[i].size() > 1) {
+            move(i, 2);
+            int id = 0;
+            if (tubes[id][0] == tubes[2][0]) id ^= 1;
+            while ((int)tubes[id].size() > 1) {
+                if (tubes[id].back() == tubes[2][0]) {
+                    move(id, 2);
+                }
+                else {
+                    move(id, id ^ 1);
+                }
+            }
+            id ^= 1;
+            while ((int)tubes[id].size() > 1) {
+                if (tubes[id].back() == tubes[2][0]) {
+                    move(id, 2);
+                }
+                else {
+                    move(id, id ^ 1);
+                }
+            }
+            move(2, id);
+        }
+    }
+    for (auto &[u, v]: moves) {
+        cout << u + 1 << " " << v + 1 << "\n";
+    }
+}
 
 int main() {
     ios::sync_with_stdio(false);
@@ -15,118 +85,6 @@ int main() {
     // freopen(".out", "w", stdout);
     cin >> T;
     while (T--) {
-        cin >> N >> P;
-        string f, s;
-        cin >> f >> s;
-        vector<pair<int, int>> A, B, C;
-        int len = 0;
-        for (int i = 1; i <= N; i++) {
-            len++;
-            if (i == N || f[i-1] != f[i]) {
-                A.push_back({(f[i-1]-'1')+1, len});
-                len = 0;
-            }
-        }
-        len = 0;
-        for (int i = 1; i <= N; i++) {
-            len++;
-            if (i == N || s[i-1] != s[i]) {
-                B.push_back({(s[i-1]-'1')+1, len});
-                len = 0;
-            }
-        }
-        vector<pair<pair<int, int>, int>> moves;
-        if (A.back().fi == B.back().fi) {
-            if ((int)A.size() > 1) {
-                B.back().se += A.back().se;
-                moves.push_back({{1, 2}, A.back().se});
-                A.pop_back();
-            }
-            else {
-                A.back().se += B.back().se;
-                moves.push_back({{2, 1}, B.back().se});
-                B.pop_back();
-            }
-        }
-        if ((int)A.size() > 1 || (int)B.size() > 1) {
-            if ((int)A.size() > 1) {
-                C.push_back(A.back());
-                moves.push_back({{1, 3}, A.back().se});
-                A.pop_back();
-            }
-            else {
-                C.push_back(B.back());
-                moves.push_back({{2, 3}, B.back().se});
-                B.pop_back();
-            }
-            if (A.front().fi != C.front().fi) {
-                while ((int)A.size() > 1) {
-                    if (A.back().fi == B.back().fi) {
-                        B.back().se += A.back().se;
-                        moves.push_back({{1, 2}, A.back().se});
-                        A.pop_back();
-                    }
-                    else {
-                        C.back().se += A.back().se;
-                        moves.push_back({{1, 3}, A.back().se});
-                        A.pop_back();
-                    }
-                }
-                while ((int)B.size() > 1) {
-                    if (B.back().fi == A.back().fi) {
-                        A.back().se += B.back().se;
-                        moves.push_back({{2, 1}, B.back().se});
-                        B.pop_back();
-                    }
-                    else {
-                        C.back().se += B.back().se;
-                        moves.push_back({{2, 3}, B.back().se});
-                        B.pop_back();
-                    }
-                }
-            }
-            else {
-                while ((int)B.size() > 1) {
-                    if (B.back().fi == A.back().fi) {
-                        B.back().se += A.back().se;
-                        moves.push_back({{1, 2}, A.back().se});
-                        A.pop_back();
-                    }
-                    else {
-                        C.back().se += B.back().se;
-                        moves.push_back({{2, 3}, B.back().se});
-                        B.pop_back();
-                    }
-                }
-                while ((int)A.size() > 1) {
-                    if (A.back().fi == B.back().fi) {
-                        A.back().se += B.back().se;
-                        moves.push_back({{2, 1}, B.back().se});
-                        B.pop_back();
-                    }
-                    else {
-                        C.back().se += A.back().se;
-                        moves.push_back({{1, 3}, A.back().se});
-                        A.pop_back();
-                    }
-                }
-            }
-            if (C.front().fi == A.front().fi) {
-                A.back().se += C.back().se;
-                moves.push_back({{3, 1}, C.back().se});
-                C.pop_back();
-            }
-            else {
-                B.back().se += C.back().se;
-                moves.push_back({{3, 2}, C.back().se});
-                C.pop_back();
-            }
-        }
-        cout << (int)moves.size() << "\n";
-        if (P > 1) {
-            for (auto [pi, cnt]: moves) {
-                cout << pi.fi << " " << pi.se << "\n";
-            }
-        }
+        solve();
     }
 }
