@@ -6,8 +6,10 @@ using namespace std;
 
 const int MOD = 1e9+7;
 
+const int MAX_N = 1e5;
+
 int T, N, Q, C;
-long long segTree[400001]; // 4 times size of N
+long long segTree[4 * MAX_N + 5];
 
 void update(int node, int L, int R, int pos, int val) {
     if (L == R) {
@@ -35,31 +37,39 @@ long long query(int node, int L, int R, int Lq, int Rq) {
     return max(query(2*node, L, mid, Lq, Rq), query(2*node+1, mid+1, R, Lq, Rq));
 }
 
+bool cmp(pair<int, int> A, pair<int, int> B) {
+    if (A.se == B.se) return A.fi < B.fi;
+    return A.se < B.se;
+}
+
 void solve() {
     cin >> N >> Q >> C;
-    vector<int> arr(N+1);
-    vector<bool> fixed(N+1);
-    vector<int> mx(N+1);
-    vector<int> maxPos(N+1);
+    vector<int> arr(N + 1);
+    vector<bool> fixed(N + 1);
+    vector<int> mx(N + 1);
+    vector<int> maxPos(N + 1);
     vector<pair<int, int>> queries(Q);
     for (int i = 1; i <= N; i++) {
         cin >> arr[i];
         if (arr[i] > 0) fixed[i] = true;
         if (arr[i] == 0) arr[i] = 1;
-        mx[i] = max(mx[i], arr[i]);
-        maxPos[i] = (1<<30);
+        maxPos[i] = (1 << 30);
         update(1, 1, N, i, arr[i]);
     }
     for (int i = 0; i < Q; i++) {
         cin >> queries[i].fi >> queries[i].se;
     }
-    sort(queries.begin(), queries.end());
+    sort(queries.begin(), queries.end(), cmp);
     bool flag = false;
     for (auto [a, h]: queries) {
         int max1 = 0;
         int max2 = 0;
         max1 = query(1, 1, N, 1, a);
-        if (a+1 <= h-1) max2 = query(1, 1, N, a+1, h-1);
+        if (a + 1 <= h - 1) max2 = query(1, 1, N, a + 1, h - 1);
+        if (max2 == C) {
+            flag = true;
+            break;
+        }
         if (max1 < max2) {
             bool flag2 = true;
             for (int i = a; i >= 1; i--) {
