@@ -551,5 +551,6 @@ C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFile
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/Deforestation.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/2DConveyerBelt.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/M.dir
+C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/NewYearAndThePermutationConcatenation.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/liang/CLionProjects/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
